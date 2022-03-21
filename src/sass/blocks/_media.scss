@@ -265,7 +265,28 @@
             font-size: 24px;
             line-height: 36px;
         }
-    }  
+    } 
+    
+    .certificate {      
+        &__wrapper{
+            display: flex;
+            justify-content: center;            
+            
+        }
+        
+        &__items {
+            display: grid;  
+                      
+
+            grid-template: repeat(1, minmax(360px, auto)) / repeat(1, 360px);
+            grid-auto-rows: minmax(360px, auto);    
+           
+           
+
+  
+        }
+    }       
+     
 
        
     .hamburger {
