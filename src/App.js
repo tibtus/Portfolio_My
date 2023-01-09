@@ -1,17 +1,26 @@
+// React
 import React from 'react';
+// style
+import './styles/stylesApp.css'
+import './styles/_vars.css';
+import './styles/typografy.css';
+import './styles/stylesLayers.css';
+import './styles/stylesComponets.css';
+//MUI
+//layers
+import Dashboard from "./layers/Dashboard";
 
-/*import logo from './image/logo/bc_logo.svg';*/
-import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-          {/*<img src={logo} className="App-logo" alt="logo" />*/}
-          Serhii Burdeinyi
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <div className="App">
+                <div className="App_wrapper">
+                    <Dashboard/>
+                </div>
+            </div>
+        </>
+    );
 }
 
 export default App;
