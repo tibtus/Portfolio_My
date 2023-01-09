@@ -5,13 +5,13 @@ import React from 'react';
 //MUI
 
 
-function Dashboard() {
+function Nav() {
     return (
-        <div className="dashboard">
+        <div className="nav">
             {/*<img src={logo} className="App-logo" alt="logo" />*/}
-            Serhii Burdeinyi
+            Nav
         </div>
     );
 }
 
-export default Dashboard;
+export default Nav;
