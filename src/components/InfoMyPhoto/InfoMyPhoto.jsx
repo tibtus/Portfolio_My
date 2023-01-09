@@ -12,7 +12,8 @@ const styleComponents = {
     borderRadius: "20px",
     margin: "5%",
     /*backgroundColor:"#99D4D2",*/
-    boxShadow: "0 0 32px 7px #4bada8",
+    boxShadow: "3px 3px 31.5px 11.5px #6b6b6b",
+
 
 }
 
