@@ -7,6 +7,15 @@
     height: 100%;
     left: 0;
     padding: 30px;
+    transition: 0.8s ease;
+    overflow: hidden;
+}
+
+.member-txt:hover {
+    background: none;
+    transition: 0.8s ease;
+    overflow: hidden;
+    border: 2px solid var(--color-sec);
 }
 
 .members-container {
