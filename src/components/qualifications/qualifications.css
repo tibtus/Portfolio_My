@@ -1,6 +1,5 @@
 .quali-text {
     font-size: 20px;
-    top: 10px;
     display: block;
     align-items: center;
     background-color: var(--color-pri-light);
@@ -23,6 +22,7 @@
     overflow-x: scroll;
     overflow-y: hidden;
     margin-top: 15px;
+    border: 1px solid red;
     user-select: none;
 
 }
@@ -50,9 +50,25 @@
 }
 
 .qualifications-container .qualification h1 {
-    font-size: 20px;
+    font-size: 24px;
     text-transform: uppercase;
-    margin-top: 20px;
+    margin-top: 40px;
+
+}
+
+.qualifications-container .qualification h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 40px;
+
+}
+
+.qualifications-container .qualification h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    color: var(--color-pri);
 }
 
 .qualifications-container .qualification .content.htmlcss {
@@ -113,7 +129,6 @@
 @media (max-width: 820px) {
     .quali-text {
         font-size: 20px;
-        top: 10px;
         text-align: center;
 
     }
@@ -163,7 +178,6 @@
 @media (max-width: 500px) {
     .quali-text {
         font-size: 20px;
-        top: 10px;
         text-align: center;
 
     }
@@ -213,7 +227,6 @@
 @media (max-width: 420px) {
     .quali-text {
         font-size: 20px;
-        top: 10px;
         text-align: center;
     }
 

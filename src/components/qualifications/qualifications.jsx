@@ -13,36 +13,52 @@ const Qualifications = () => {
         </div>
         <div className="qualifications-container">
           <div className="qualification">
+            <h1>Name</h1>
             <div className="content htmlcss"/>
-            <h1>html css</h1>
+            <h2>html css</h2>
+            <h4> Link </h4>
           </div>
           <div className="qualification">
+            <h1>Name</h1>
             <div className="content materialui"/>
-            <h1>material ui</h1>
+            <h2>material ui</h2>
+            <h4> Link </h4>
           </div>
           <div className="qualification">
+            <h1>Name</h1>
             <div className="content javascript"/>
-            <h1>javascript</h1>
+            <h2>javascript</h2>
+            <h4> Link </h4>
           </div>
           <div className="qualification">
+            <h1>Name</h1>
             <div className="content bootstrap"/>
-            <h1>bootstrap</h1>
+            <h2>bootstrap</h2>
+            <h4> Link </h4>
           </div>
           <div className="qualification">
+            <h1>Name</h1>
             <div className="content react"/>
-            <h1>react</h1>
+            <h2>react</h2>
+            <h4> Link </h4>
           </div>
           <div className="qualification">
+            <h1>Name</h1>
             <div className="content mongo.db"/>
-            <h1>mongo.db</h1>
+            <h2>mongo.db</h2>
+            <h4> Link </h4>
           </div>
           <div className="qualification">
+            <h1>Name</h1>
             <div className="content node.js"/>
-            <h1>node.js</h1>
+            <h2>node.js</h2>
+            <h4> Link </h4>
           </div>
           <div className="qualification">
+            <h1>Name</h1>
             <div className="content redux"/>
-            <h1>redux</h1>
+            <h2>redux</h2>
+            <h4> Link </h4>
           </div>
         </div>
       </div>
