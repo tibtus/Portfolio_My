@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 //styles
 import './home.css';
 //components
@@ -9,10 +9,17 @@ import {BsMouse} from 'react-icons/bs';
 
 
 function Home() {
+
+    const [activeState, setActiveState] = useState(false);
+    let handleClick = () => {
+        setActiveState(!activeState)
+    };
+
+
     return (
         <div id='home' className='container home-container'>
             <div className='logo'>
-                <div className='hover-show'>
+                <div className={`hover-show ${activeState ? 'active' : ''}`} onClick={handleClick}>
                     <span className='circle'/>
                     <span className='circle'/>
                     <span className='circle'/>
