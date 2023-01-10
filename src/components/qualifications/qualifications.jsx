@@ -1,12 +1,16 @@
 import React from "react";
 //styles
 import "./qualifications.css";
+//styles
+import "../button/button.css";
 
 
 const Qualifications = () => {
   return (
       <div>
-        <span className="quali-text">My Qualifications</span>
+        <div className="quali-text button-container">
+          <div className="btn sec">My projects</div>
+        </div>
         <div className="qualifications-container">
           <div className="qualification">
             <div className="content htmlcss"/>

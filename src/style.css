@@ -13,6 +13,7 @@
 
 body {
     background: rgb(2, 2, 26);
+    /*background: rgb(69,72,77);*/
     min-height: 100vh;
     font-family: "Inter", sans-serif;
     animation: move 1s linear infinite forwards;
@@ -27,18 +28,18 @@ body::before {
     position: fixed;
     height: 200px;
     width: 200px;
-    background: rgb(0, 255, 255);
-    filter: blur(140px);
+    background: #0001F4;
+    filter: blur(100px);
 }
 
 body::after {
     content: "";
     position: fixed;
-    top: 200px;
+    top: 350px;
     left: 250px;
     height: 200px;
     width: 200px;
-    background: rgb(183, 0, 255);
+    background: #F6F600;
     filter: blur(140px);
 }
 
@@ -48,18 +49,18 @@ body::after {
     right: 0px;
     height: 200px;
     width: 200px;
-    background: rgb(0, 255, 255);
-    filter: blur(140px);
+    background: #0001F4;
+    filter: blur(100px);
 }
 
 .bg-circle2 {
     position: fixed;
-    bottom: 100px;
+    bottom: 400px;
     right: 250px;
     height: 200px;
     width: 200px;
-    background: rgb(183, 0, 255);
-    filter: blur(150px);
+    background: #F6F600;
+    filter: blur(100px);
 }
 
 ::-webkit-scrollbar {

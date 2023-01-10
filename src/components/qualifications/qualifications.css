@@ -1,6 +1,19 @@
 .quali-text {
     font-size: 20px;
     top: 10px;
+    display: block;
+    /*border: 2px solid rgb(172, 17, 233);;*/
+    align-items: center;
+
+    /*    min-height: 60px;
+        min-width: 100px;
+        max-width: 200px;
+        padding: 30px;
+        margin-bottom: 20px;*/
+
+    /*   border: 2px solid var(--color-pri);
+       background-color: transparent;*/
+
 }
 
 .qualifications-container {
@@ -14,6 +27,7 @@
     overflow-y: hidden;
     margin-top: 15px;
     user-select: none;
+
 }
 
 .qualifications-container .qualification {
@@ -104,6 +118,7 @@
         font-size: 30px;
         top: 10px;
         text-align: center;
+
     }
 
     .qualifications-container {
@@ -153,6 +168,7 @@
         font-size: 20px;
         top: 10px;
         text-align: center;
+
     }
 
     .qualifications-container {
