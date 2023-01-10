@@ -29,27 +29,22 @@ function Navbar() {
     return (
         <div className="navigation">
             <a href="#home">
-                {/*<AiOutlineHome className="icon active-nav"/>*/}
                 <AiOutlineHome className="icon active-nav" onClick={handleClick}/>
 
             </a>
             <a href="#about">
-                {/*<AiOutlineUser className="icon"/>*/}
                 <AiOutlineUser className="icon " onClick={handleClick}/>
 
             </a>
             <a href="#members">
-                {/*<TiGroupOutline className="icon"/>*/}
                 <TiGroupOutline className="icon " onClick={handleClick}/>
 
             </a>
             <a href="#contact">
-                {/*<BiMessageRoundedDots className="icon"/>*/}
                 <BiMessageRoundedDots className="icon " onClick={handleClick}/>
 
             </a>
             <a href="#footer">
-                {/*<BsArrowDownCircle className="icon"/>*/}
                 <BsArrowDownCircle className="icon " onClick={handleClick}/>
 
             </a>
