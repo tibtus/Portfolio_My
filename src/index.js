@@ -18,15 +18,7 @@ root.render(
 );
 
 
-/*const toggle = document.querySelector('.hover-show');
-
-console.log("toggle", document.querySelector('.hover-show'))
-
-toggle.addEventListener('click', () => {
-    toggle.classList.toggle('active');
-});*/
-
-let Icons = document.querySelectorAll('.navigation .icon');
+/*let Icons = document.querySelectorAll('.navigation .icon');
 
 Icons.forEach((icon) => {
     icon.addEventListener('click', () => {
@@ -40,5 +32,5 @@ function changeActive() {
   Icons.forEach((icon) => {
     icon.classList.remove('active-nav');
   });
-}
+}*/
 
