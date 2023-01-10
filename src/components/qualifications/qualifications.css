@@ -45,20 +45,20 @@
 }
 
 .qualifications-container .qualification .content.html {
-    background: rgba(255, 255, 255, 0.103) url(../props/html.png);
+    background: rgba(255, 255, 255, 0.103) url(../props/img1.jpg);
     background-position: center;
     background-size: 66px;
 }
 
 .qualifications-container .qualification .content.css {
-    background: rgba(255, 255, 255, 0.103) url(../props/css.png);
+    background: rgba(255, 255, 255, 0.103) url(../props/img0.jpg);
     background-position: center;
     background-size: cover;
     background-size: 66px;
 }
 
 .qualifications-container .qualification .content.javascript {
-    background: rgba(255, 255, 255, 0.103) url(../props/js.jpg);
+    background: rgba(255, 255, 255, 0.103) url(../props/img0.jpg);
     background-position: center;
     background-size: cover;
     background-size: 90px;
