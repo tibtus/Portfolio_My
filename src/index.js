@@ -1,22 +1,35 @@
-import React from "react";
-import ReactDOM from 'react-dom';
+import React, {Suspense} from "react";
+import ReactDOM from 'react-dom/client';
 import './style.css';
 import WebContent from './app';
+import Preloader from "./components/Preloader/Preloader";
 
 
-ReactDOM.render(<WebContent/>, document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(
+    <React.StrictMode>
+        <Suspense fallback={<Preloader/>}>
+
+            <WebContent/>
+
+        </Suspense>
+    </React.StrictMode>
+);
 
 const toggle = document.querySelector('.hover-show');
 
+console.log("toggle", document.querySelector('.hover-show'))
+
 toggle.addEventListener('click', () => {
-  toggle.classList.toggle('active');
+    toggle.classList.toggle('active');
 });
 
 let Icons = document.querySelectorAll('.navigation .icon');
 
 Icons.forEach((icon) => {
-  icon.addEventListener('click', () => {
-    changeActive();
+    icon.addEventListener('click', () => {
+        changeActive();
 
     icon.classList.add('active-nav');
   });
@@ -27,3 +40,4 @@ function changeActive() {
     icon.classList.remove('active-nav');
   });
 }
+
