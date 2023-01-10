@@ -44,21 +44,21 @@
     margin-top: 20px;
 }
 
-.qualifications-container .qualification .content.html {
-    background: rgba(255, 255, 255, 0.103) url(../props/img1.jpg);
+.qualifications-container .qualification .content.htmlcss {
+    background: rgba(255, 255, 255, 0.103) url(../props/htmlcss.png);
     background-position: center;
     background-size: 66px;
 }
 
-.qualifications-container .qualification .content.css {
-    background: rgba(255, 255, 255, 0.103) url(../props/img0.jpg);
+.qualifications-container .qualification .content.materialui {
+    background: rgba(255, 255, 255, 0.103) url(../props/materialui.png);
     background-position: center;
     background-size: cover;
     background-size: 66px;
 }
 
 .qualifications-container .qualification .content.javascript {
-    background: rgba(255, 255, 255, 0.103) url(../props/img0.jpg);
+    background: rgba(255, 255, 255, 0.103) url(../props/js.jpg);
     background-position: center;
     background-size: cover;
     background-size: 90px;
@@ -78,22 +78,22 @@
     background-size: 66px;
 }
 
-.qualifications-container .qualification .content.c-plus-plus {
-    background: rgba(255, 255, 255, 0.103) url(../props/c-plus-plus.png);
+.qualifications-container .qualification .content.redux {
+    background: rgba(255, 255, 255, 0.103) url(../props/redux.png);
     background-position: center;
     background-size: cover;
     background-size: 66px;
 }
 
-.qualifications-container .qualification .content.c-sharp {
-    background: rgba(255, 255, 255, 0.103) url(../props/c-sharp.png);
+.qualifications-container .qualification .content.react {
+    background: rgba(255, 255, 255, 0.103) url(../props/react.png);
     background-position: center;
     background-size: cover;
     background-size: 66px;
 }
 
-.qualifications-container .qualification .content.kotlin {
-    background: rgba(255, 255, 255, 0.103) url(../props/kotlin.png);
+.qualifications-container .qualification .content.mongo.db {
+    background: rgba(255, 255, 255, 0.103) url(../props/mongo.db.png);
     background-position: center;
     background-size: cover;
     background-size: 66px;

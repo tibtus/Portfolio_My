@@ -9,12 +9,12 @@ const Qualifications = () => {
         <span className="quali-text">My Qualifications</span>
         <div className="qualifications-container">
           <div className="qualification">
-            <div className="content html"/>
-            <h1>html</h1>
+            <div className="content htmlcss"/>
+            <h1>html css</h1>
           </div>
           <div className="qualification">
-            <div className="content css"/>
-            <h1>css</h1>
+            <div className="content materialui"/>
+            <h1>material ui</h1>
           </div>
           <div className="qualification">
             <div className="content javascript"/>
@@ -29,16 +29,16 @@ const Qualifications = () => {
             <h1>react</h1>
           </div>
           <div className="qualification">
-            <div className="content c-plus-plus"/>
-            <h1>c++</h1>
+            <div className="content mongo.db"/>
+            <h1>mongo.db</h1>
           </div>
           <div className="qualification">
-            <div className="content c-sharp"/>
-            <h1>c#</h1>
+            <div className="content node.js"/>
+            <h1>node.js</h1>
           </div>
           <div className="qualification">
-            <div className="content kotlin"/>
-            <h1>kotlin</h1>
+            <div className="content redux"/>
+            <h1>redux</h1>
           </div>
         </div>
       </div>
