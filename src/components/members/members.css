@@ -2,6 +2,11 @@
     font-size: 20px;
     top: 10px;
     font-weight: 100;
+    background-color: var(--color-pri-light);
+    border: 2px solid var(--color-pri);
+    height: 100%;
+    left: 0;
+    padding: 30px;
 }
 
 .members-container {

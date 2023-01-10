@@ -2,19 +2,16 @@
     font-size: 20px;
     top: 10px;
     display: block;
-    /*border: 2px solid rgb(172, 17, 233);;*/
     align-items: center;
-
-    /*    min-height: 60px;
-        min-width: 100px;
-        max-width: 200px;
-        padding: 30px;
-        margin-bottom: 20px;*/
-
-    /*   border: 2px solid var(--color-pri);
-       background-color: transparent;*/
-
+    background-color: var(--color-pri-light);
+    border: 2px solid var(--color-pri);
+    min-width: 65%;
+    left: 0;
+    padding: 30px;
 }
+
+
+
 
 .qualifications-container {
     position: absolute;
@@ -115,7 +112,7 @@
 
 @media (max-width: 820px) {
     .quali-text {
-        font-size: 30px;
+        font-size: 20px;
         top: 10px;
         text-align: center;
 
@@ -265,9 +262,7 @@
 @media (max-width: 400px) {
     .quali-text {
         font-size: 20px;
-        top: 10px;
-        position: absolute;
-        left: 10px;
+
     }
 
     .qualifications-container {
@@ -315,9 +310,7 @@
 @media (max-width: 375px) {
     .quali-text {
         font-size: 20px;
-        top: 10px;
-        position: absolute;
-        left: 10px;
+
     }
 
     .qualifications-container {

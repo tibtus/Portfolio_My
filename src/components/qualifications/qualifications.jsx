@@ -8,8 +8,8 @@ import "../button/button.css";
 const Qualifications = () => {
   return (
       <div>
-        <div className="quali-text button-container">
-          <div className="btn sec">My projects</div>
+        <div className="quali-text ">
+          <div>My projects</div>
         </div>
         <div className="qualifications-container">
           <div className="qualification">
