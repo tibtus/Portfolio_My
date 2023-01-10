@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 //styles
 import "./nav.css";
 //icons
@@ -27,9 +27,23 @@ function Navbar() {
             });
         }*/
 
-    const [activeState, setActiveState] = useState(false);
+
     let handleClick = () => {
-        setActiveState(!activeState)
+
+        let Icons = document.querySelectorAll('.navigation .icon');
+
+        Icons.forEach((icon) => {
+            icon.addEventListener('click', () => {
+                changeActive();
+                icon.classList.add('active-nav');
+            });
+        });
+
+        function changeActive() {
+            Icons.forEach((icon) => {
+                icon.classList.remove('active-nav');
+            });
+        }
     };
 
 
@@ -37,23 +51,28 @@ function Navbar() {
         <div className="navigation">
             <a href="#home">
                 {/*<AiOutlineHome className="icon active-nav"/>*/}
-                <AiOutlineHome className={`icon ${activeState ? 'active-nav' : ''}`} onClick={handleClick}/>
+                <AiOutlineHome className="icon active-nav" onClick={handleClick}/>
+
             </a>
             <a href="#about">
                 {/*<AiOutlineUser className="icon"/>*/}
-                <AiOutlineUser className={`icon ${activeState ? 'active-nav' : ''}`} onClick={handleClick}/>
+                <AiOutlineUser className="icon " onClick={handleClick}/>
+
             </a>
             <a href="#members">
                 {/*<TiGroupOutline className="icon"/>*/}
-                <TiGroupOutline className={`icon ${activeState ? 'active-nav' : ''}`} onClick={handleClick}/>
+                <TiGroupOutline className="icon " onClick={handleClick}/>
+
             </a>
             <a href="#contact">
                 {/*<BiMessageRoundedDots className="icon"/>*/}
-                <BiMessageRoundedDots className={`icon ${activeState ? 'active-nav' : ''}`} onClick={handleClick}/>
+                <BiMessageRoundedDots className="icon " onClick={handleClick}/>
+
             </a>
             <a href="#footer">
                 {/*<BsArrowDownCircle className="icon"/>*/}
-                <BsArrowDownCircle className={`icon ${activeState ? 'active-nav' : ''}`} onClick={handleClick}/>
+                <BsArrowDownCircle className="icon " onClick={handleClick}/>
+
             </a>
         </div>
     );
