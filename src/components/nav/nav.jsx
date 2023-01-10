@@ -28,22 +28,18 @@ function Navbar() {
         }*/
 
 
-    let handleClick = () => {
+    let handleClick = (e) => {
 
-        let Icons = document.querySelectorAll('.navigation .icon');
 
-        Icons.forEach((icon) => {
-            icon.addEventListener('click', () => {
-                changeActive();
-                icon.classList.add('active-nav');
-            });
-        });
+        let foo = document.querySelectorAll(".navigation .icon");
 
-        function changeActive() {
-            Icons.forEach((icon) => {
-                icon.classList.remove('active-nav');
-            });
+        for (let i = 0; i < foo.length; i++) {
+            foo[i].classList.remove("active-nav");
+
         }
+
+        e.currentTarget.classList.add("active-nav");
+
     };
 
 
