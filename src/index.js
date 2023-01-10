@@ -1,22 +1,29 @@
-/*!
- * =========================================================
- *          https://tibtus.github.io
- * =========================================================
- * Copyright (c) 2022
- * @Author: Serhii Burdeinyi
- * @email: tibtus@gmail.com
- * Licensed under the MIT License (MIT)
- */
+import React from "react";
+import ReactDOM from 'react-dom';
+import './style.css';
+import WebContent from './app';
 
-import React from 'react';
-import ReactDOM from 'react-dom/client';
 
-import App from './App';
+ReactDOM.render(<WebContent/>, document.getElementById('root'));
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+const toggle = document.querySelector('.hover-show');
 
+toggle.addEventListener('click', () => {
+  toggle.classList.toggle('active');
+});
+
+let Icons = document.querySelectorAll('.navigation .icon');
+
+Icons.forEach((icon) => {
+  icon.addEventListener('click', () => {
+    changeActive();
+
+    icon.classList.add('active-nav');
+  });
+});
+
+function changeActive() {
+  Icons.forEach((icon) => {
+    icon.classList.remove('active-nav');
+  });
+}
