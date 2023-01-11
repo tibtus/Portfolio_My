@@ -1,4 +1,5 @@
 import React from "react";
+import Package from "../../../package.json";
 //styles
 import "./footer.css";
 // icons
@@ -40,7 +41,7 @@ function Footer() {
             </div>
 
             <div className="date">
-                Burdeinyi Serhii © v.1.0.0 ,
+                Burdeinyi Serhii © v.{Package.version} ,
                 <a href="https://www.linkedin.com/in/burdeinyi/"
                    target={"blank"}
                 > Угода на використання ресурсу </a>
