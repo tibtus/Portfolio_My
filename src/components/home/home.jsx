@@ -10,7 +10,7 @@ import {BsMouse} from 'react-icons/bs';
 
 function Home() {
 
-    const [activeState, setActiveState] = useState(false);
+    const [activeState, setActiveState] = useState(true);
     let handleClick = () => {
         setActiveState(!activeState)
     };
