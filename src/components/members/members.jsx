@@ -7,11 +7,11 @@ const Members = () => {
         <h1 className="member-txt">Courses</h1>
 
         <div className="member member-1">
-          <div className="member-img"/>
+          <div className="member-img">
+          </div>
           <div className="member-info">
             <h1 className="name">
               Course "Web Developer"
-
             </h1>
             <div className="position">UDEMY</div>
             <h3 className="period"> 04.2021 - 08.2021 ( 4 months ) </h3>
@@ -25,7 +25,10 @@ const Members = () => {
               BEM methodology |
               Automating processes using the Gulp task scheduler |
             </h4>
-            <a href="#contact" className="contact-member">
+            <a href="https://www.udemy.com/certificate/UC-b2428720-58ee-4be5-9783-e562d31ac5ac/"
+               className="contact-member"
+               target={"blank"}
+            >
               <span>Certificate</span>
             </a>
           </div>
@@ -53,7 +56,10 @@ const Members = () => {
               Jquery library |
               JS animation, requestAnimationFrame |
             </h4>
-            <a href="#contact" className="contact-member">
+            <a href="https://www.udemy.com/certificate/UC-849f81a7-eece-415f-b002-f6ae00e72f8d/"
+               className="contact-member"
+               target={"blank"}
+            >
               <span>Certificate</span>
             </a>
           </div>
@@ -74,7 +80,10 @@ const Members = () => {
               principles of work with site management systems (CMS)
               working with local servers and phpmyadmin
             </h4>
-            <a href="#contact" className="contact-member">
+            <a href="https://www.udemy.com/certificate/UC-b15be99f-9fe6-40f2-9810-b6bc6d3f8ae3/"
+               className="contact-member"
+               target={"blank"}
+            >
               <span>Certificate</span>
             </a>
           </div>
@@ -92,7 +101,10 @@ const Members = () => {
               Сreating a JavaScript UI Library,
               Practice with OPP style
             </h4>
-            <a href="#contact" className="contact-member">
+            <a href="https://www.udemy.com/certificate/UC-53a42935-ee6d-49d8-8d91-5553f6619690/"
+               className="contact-member"
+               target={"blank"}
+            >
               <span>Certificate</span>
             </a>
           </div>
@@ -109,7 +121,10 @@ const Members = () => {
               from scratch,
               basics and application architecture
             </h4>
-            <a href="#contact" className="contact-member">
+            <a href="https://www.udemy.com/certificate/UC-53a42935-ee6d-49d8-8d91-5553f6619690/"
+               className="contact-member"
+               target={"blank"}
+            >
               <span>Certificate</span>
             </a>
           </div>
