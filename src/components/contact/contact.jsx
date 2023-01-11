@@ -22,6 +22,17 @@ function Contact() {
             </h2>
           </a>
 
+          <a
+              href="https://www.linkedin.com/in/burdeinyi/"
+              className="contact Linkedin"
+              target={"blank"}
+          >
+            <AiFillLinkedin className="icon"/>
+            <h2>
+              Linkedin <span> Burdeinyi </span>
+            </h2>
+          </a>
+
 
           <a
               href="https://telegram.me/tibtus"
@@ -35,29 +46,35 @@ function Contact() {
           </a>
 
 
-          <a href="https://www.linkedin.com/in/burdeinyi/" className="contact Linkedin">
-            <AiFillLinkedin className="icon"/>
-            <h2>
-              Linkedin <span> Burdeinyi </span>
-            </h2>
-          </a>
-
-
         </div>
 
 
         <div className="contact-links">
+
+
           <a
-              href="#"
-              className="contact CV"
+              href="https://www.facebook.com/burdeinyi.serhii"
+              className="contact facebook"
               target={"blank"}
           >
-            <AiOutlineMail className="icon"/>
+            <AiFillFacebook className="icon"/>
             <h2>
-              CV <span> Download CV </span>
+              Facebook <span> Burdeinyi </span>
             </h2>
           </a>
 
+          <a
+              href="../props/contacts.vcf"
+              className="contact"
+              download=""
+          >
+            <div className="contact QRCode">
+              <div className="contact QRCode img"/>
+            </div>
+            <h2>
+              <span> QRCode </span>
+            </h2>
+          </a>
 
           <a
               href="https://wa.me/380939117418"
@@ -66,15 +83,7 @@ function Contact() {
           >
             <AiOutlineWhatsApp className="icon"/>
             <h2>
-              Wat <span> +38 093 911 7418 </span>
-            </h2>
-          </a>
-
-
-          <a href="https://www.facebook.com/burdeinyi.serhii" className="contact facebook">
-            <AiFillFacebook className="icon"/>
-            <h2>
-              Facebook <span> Burdeinyi </span>
+              WhatsApp <span> +38 093 911 7418 </span>
             </h2>
           </a>
 

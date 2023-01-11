@@ -7,7 +7,6 @@
     min-height: 80vh;
     margin-top: 100px;
     padding: 50px;
-    border: 1px solid red;
 }
 
 .contact-container h1 {
@@ -48,6 +47,23 @@
 .contact-container .contact .icon {
     position: relative;
     font-size: 130px;
+}
+
+.contact-container .contact .QRCode {
+    position: relative;
+    width: 30%;
+    height: 30%;
+    padding: 70px;
+
+}
+
+.contact-container .contact .QRCode .img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../props/qrcode.png);
+    background-position: center;
+    background-size: cover;
 }
 
 .contact-container .contact h2 {
