@@ -46,6 +46,15 @@
     align-items: center;
 }
 
+.container.footer-container .date {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: capitalize;
+}
+
 .social-links .social {
     height: 45px;
     width: 45px;

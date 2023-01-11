@@ -76,17 +76,23 @@
     margin-top: 10px;
     font-weight: 100;
     font-size: 17px;
+    margin-bottom: 80px;
 }
 
 .members-container .member .member-info .contact-member {
     background-color: var(--color-sec-light);
     padding: 17px 35px;
     font-size: 18px;
-    margin-top: 20px;
+
     border-radius: 50px;
+    /*    right: 10px;
+        top: 10px;*/
+    bottom: 10px;
+    /*left: 10px;*/
+
     position: absolute;
     transition: 0.1s ease;
-    /*border: 1px solid red;*/
+
 }
 
 .members-container .member .member-info .contact-member span {
@@ -171,8 +177,8 @@
         border-radius: 50px;
         transition: 0.1s ease;
         position: absolute;
-        top: -55px;
-        right: 10px;
+        /*top: -55px;
+        right: 10px;*/
     }
 }
 
@@ -247,8 +253,8 @@
         border-radius: 50px;
         transition: 0.1s ease;
         position: absolute;
-        top: -55px;
-        right: 10px;
+        /*top: -55px;
+        right: 10px;*/
     }
 }
 
@@ -323,8 +329,8 @@
         border-radius: 50px;
         transition: 0.1s ease;
         position: absolute;
-        top: -55px;
-        right: 10px;
+        /*    top: -55px;
+            right: 10px;*/
     }
 }
 
@@ -400,8 +406,8 @@
         border-radius: 50px;
         transition: 0.1s ease;
         position: absolute;
-        top: -55px;
-        right: 10px;
+        /*top: -55px;
+        right: 10px;*/
     }
 }
 
@@ -477,7 +483,7 @@
         border-radius: 50px;
         transition: 0.1s ease;
         position: absolute;
-        top: -55px;
-        right: 5px;
+        /* top: -55px;
+         right: 5px;*/
     }
 }

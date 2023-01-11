@@ -130,6 +130,24 @@ const Members = () => {
           </div>
         </div>
 
+        <div className="member member-6">
+          <div className="member-img"/>
+          <div className="member-info">
+            <h1 className="name"> Course "Angular"
+            </h1>
+            <div className="position">UDEMY</div>
+            <h3 className="period"> 08.2022 - 12.2022 ( 4 months ) </h3>
+            <h4 className="about">
+
+            </h4>
+            <a href="https://www.udemy.com/certificate/UC-53a42935-ee6d-49d8-8d91-5553f6619690/"
+               className="contact-member"
+               target={"blank"}
+            >
+              <span>Certificate</span>
+            </a>
+          </div>
+        </div>
 
       </div>
   );

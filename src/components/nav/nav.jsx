@@ -33,13 +33,22 @@ function Navbar() {
 
             </a>
             <a href="#about">
-                <AiOutlineUser className="icon " onClick={handleClick}/>
-
-            </a>
-            <a href="#members">
                 <TiGroupOutline className="icon " onClick={handleClick}/>
 
             </a>
+            <a href="#members">
+                <AiOutlineUser className="icon " onClick={handleClick}/>
+
+            </a>
+            <a href="#footer">
+                <BsArrowDownCircle className="icon " onClick={handleClick}/>
+
+            </a>
+            <a href="#footer">
+                <BsArrowDownCircle className="icon " onClick={handleClick}/>
+
+            </a>
+
             <a href="#contact">
                 <BiMessageRoundedDots className="icon " onClick={handleClick}/>
 
