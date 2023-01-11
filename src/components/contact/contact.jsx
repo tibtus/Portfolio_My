@@ -2,7 +2,7 @@ import React from "react";
 //styles
 import "./contact.css";
 //icons
-import {AiFillLinkedin, AiOutlineMail} from "react-icons/ai";
+import {AiFillFacebook, AiFillLinkedin, AiOutlineMail, AiOutlineWhatsApp} from "react-icons/ai";
 import {FaTelegram} from "react-icons/fa";
 
 
@@ -18,7 +18,7 @@ function Contact() {
           >
             <AiOutlineMail className="icon"/>
             <h2>
-              Email <span>Serhii Burdeinyi</span>
+              Email <span> tibtus@gmail.com </span>
             </h2>
           </a>
 
@@ -30,7 +30,7 @@ function Contact() {
           >
             <FaTelegram className="icon"/>
             <h2>
-              Telegram <span>+38 093 911 7418</span>
+              Telegram <span> +38 093 911 7418 </span>
             </h2>
           </a>
 
@@ -38,13 +38,51 @@ function Contact() {
           <a href="https://www.linkedin.com/in/burdeinyi/" className="contact Linkedin">
             <AiFillLinkedin className="icon"/>
             <h2>
-              Linkedin <span>Serhii Burdeinyi</span>
+              Linkedin <span> Burdeinyi </span>
+            </h2>
+          </a>
+
+
+        </div>
+
+
+        <div className="contact-links">
+          <a
+              href="#"
+              className="contact CV"
+              target={"blank"}
+          >
+            <AiOutlineMail className="icon"/>
+            <h2>
+              CV <span> Download CV </span>
+            </h2>
+          </a>
+
+
+          <a
+              href="https://wa.me/380939117418"
+              className="contact WhatsApp"
+              target={"blank"}
+          >
+            <AiOutlineWhatsApp className="icon"/>
+            <h2>
+              Wat <span> +38 093 911 7418 </span>
+            </h2>
+          </a>
+
+
+          <a href="https://www.facebook.com/burdeinyi.serhii" className="contact facebook">
+            <AiFillFacebook className="icon"/>
+            <h2>
+              Facebook <span> Burdeinyi </span>
             </h2>
           </a>
 
 
         </div>
       </div>
+
+
   );
 }
 
