@@ -64,9 +64,12 @@
 }
 
 .members-container .member .member-info .position {
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 28px;
+    font-weight: 700;
     letter-spacing: 2px;
+    color: var(--color-pri);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .members-container .member .member-info .about {
