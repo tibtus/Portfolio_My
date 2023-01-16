@@ -3,39 +3,48 @@ import React from "react";
 import "./experience.css";
 
 
-const sections = document.querySelectorAll("section");
-
-[...sections].forEach((section) => {
-    const checkbox = section.querySelector("input");
-
-    checkbox.addEventListener("change", () => {
-        section.classList.toggle("enable-animation");
-    });
-});
-
-
 function Experience() {
+
+    const sections = document.querySelector("section");
+
+    console.log("sections", sections)
+
+    sections.addEventListener("mouseover", () => {
+
+        sections.classList.remove("enable-animation");
+
+
+    });
+
+
     return (
         <div id="experience" className="container experience-container">
-            <section>
-                <h2>Fit content + position absolute :last-child</h2>
-                <input id="enable-animation-5" type="checkbox"/>
-                <label htmlFor="enable-animation-5">Enable animation</label>
+            <section className="enable-animation">
+                <h2>Fit content</h2>
+                <input id="enable-animation-4 " type="checkbox"/>
+                <label htmlFor="enable-animation-4">Enable animation</label>
 
-                <div className="marquee marquee--fit-content marquee--pos-absolute">
+                <div className="marquee marquee--fit-content">
                     <ul className="marquee__content">
                         <li>1</li>
                         <li>2</li>
                         <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
                     </ul>
 
-                    <ul aria-hidden="true" className="marquee__content">
+                    <ul className="marquee__content">
                         <li>1</li>
                         <li>2</li>
                         <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
                     </ul>
-                </div>
 
+
+                </div>
             </section>
         </div>
     );
