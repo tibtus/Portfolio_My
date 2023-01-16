@@ -2,10 +2,8 @@ import React from "react";
 //styles
 import "./nav.css";
 //icons
-import {AiOutlineHome, AiOutlineUser} from "react-icons/ai";
-import {TiGroupOutline} from "react-icons/ti";
-import {BiMessageRoundedDots} from "react-icons/bi";
-import {BsArrowDownCircle} from "react-icons/bs";
+import {FcGraduationCap, FcHome, FcInternal, FcLinux, FcPhone, FcRating} from "react-icons/fc";
+import {DiJavascript1,} from "react-icons/di";
 
 
 function Navbar() {
@@ -29,32 +27,32 @@ function Navbar() {
     return (
         <div className="navigation">
             <a href="#home">
-                <AiOutlineHome className="icon active-nav" onClick={handleClick}/>
+                <FcHome className="icon active-nav" onClick={handleClick}/>
 
             </a>
             <a href="#about">
-                <TiGroupOutline className="icon " onClick={handleClick}/>
+                <FcRating className="icon " onClick={handleClick}/>
 
             </a>
             <a href="#members">
-                <AiOutlineUser className="icon " onClick={handleClick}/>
+                <FcGraduationCap className="icon " onClick={handleClick}/>
 
             </a>
             <a href="#footer">
-                <BsArrowDownCircle className="icon " onClick={handleClick}/>
+                <DiJavascript1 className="icon " onClick={handleClick}/>
 
             </a>
             <a href="#footer">
-                <BsArrowDownCircle className="icon " onClick={handleClick}/>
+                <FcLinux className="icon " onClick={handleClick}/>
 
             </a>
 
             <a href="#contact">
-                <BiMessageRoundedDots className="icon " onClick={handleClick}/>
+                <FcPhone className="icon " onClick={handleClick}/>
 
             </a>
             <a href="#footer">
-                <BsArrowDownCircle className="icon " onClick={handleClick}/>
+                <FcInternal className="icon " onClick={handleClick}/>
 
             </a>
         </div>
