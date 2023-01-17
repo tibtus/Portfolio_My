@@ -79,7 +79,6 @@
     align-items: center;
     height: 80%;
     width: 90%;
-    overflow-x: scroll;
     border: 1px solid red;
     overflow-y: hidden;
     margin-top: 15px;
@@ -90,14 +89,21 @@
 .qualifications-container .qualification {
     position: relative;
     height: 550px;
-    min-width: 40%;
+    min-width: 100%;
     background-color: rgb(9, 6, 31);
     border-radius: 20px;
     margin: 0 20px 0 0;
     display: flex;
+
+    /*display: none;*/
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+
+}
+
+.qualifications-container .active-list {
+    /*display: flex;*/
 
 }
 
@@ -135,56 +141,56 @@
 .qualifications-container .qualification .content.htmlcss {
     background: rgba(255, 255, 255, 0.103) url(../props/htmlcss.png);
     background-position: center;
-    /*background-size: 66px;*/
+
 }
 
 .qualifications-container .qualification .content.materialui {
     background: rgba(255, 255, 255, 0.103) url(../props/materialui.png);
     background-position: center;
     background-size: cover;
-    /*background-size: 66px;*/
+
 }
 
 .qualifications-container .qualification .content.javascript {
     background: rgba(255, 255, 255, 0.103) url(../props/js.jpg);
     background-position: center;
     background-size: cover;
-    /*background-size: 90px;*/
+
 }
 
 .qualifications-container .qualification .content.bootstrap {
     background: rgba(255, 255, 255, 0.103) url(../props/bootstrap.png);
     background-position: center;
     background-size: cover;
-    /*background-size: 66px;*/
+
 }
 
 .qualifications-container .qualification .content.react {
     background: rgba(255, 255, 255, 0.103) url(../props/react.png);
     background-position: center;
     background-size: cover;
-    /*background-size: 66px;*/
+
 }
 
 .qualifications-container .qualification .content.redux {
     background: rgba(255, 255, 255, 0.103) url(../props/redux.png);
     background-position: center;
     background-size: cover;
-    /*background-size: 66px;*/
+
 }
 
 .qualifications-container .qualification .content.react {
     background: rgba(255, 255, 255, 0.103) url(../props/react.png);
     background-position: center;
     background-size: cover;
-    /*background-size: 66px;*/
+
 }
 
 .qualifications-container .qualification .content.mongo.db {
     background: rgba(255, 255, 255, 0.103) url(../props/mongo.db.png);
     background-position: center;
     background-size: cover;
-    /*background-size: 66px;*/
+
 }
 
 @media (max-width: 820px) {

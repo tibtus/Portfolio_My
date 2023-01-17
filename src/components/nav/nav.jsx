@@ -16,9 +16,7 @@ function Navbar() {
 
         for (let i = 0; i < foo.length; i++) {
             foo[i].classList.remove("active-nav");
-
         }
-
         e.currentTarget.classList.add("active-nav");
 
     };

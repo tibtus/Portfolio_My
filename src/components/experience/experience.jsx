@@ -1,27 +1,23 @@
-import React from "react";
+import React, {useState} from "react";
 //styles
 import "./experience.css";
 
 
 function Experience() {
-
-    const sections = document.querySelector("section");
-
-    console.log("sections", sections)
-
-    sections.addEventListener("mouseover", () => {
-
-        sections.classList.remove("enable-animation");
-
-
-    });
-
+    let [animation, setAnimation] = useState(true);
+    /*console.log("test 1", )*/
+    let handleClick = (e) => {
+        setAnimation(!animation);
+        /*console.log("test 2", )*/
+    };
 
     return (
         <div id="experience" className="container experience-container">
-            <section className="enable-animation">
+            <section className={animation ? "enable-animation" : ""}>
                 <h2>Fit content</h2>
-                <input id="enable-animation-4 " type="checkbox"/>
+                <button style={{"color": "black"}} onClick={handleClick}>
+                    {animation ? "STOP" : "PLAY"}
+                </button>
                 <label htmlFor="enable-animation-4">Enable animation</label>
 
                 <div className="marquee marquee--fit-content">
