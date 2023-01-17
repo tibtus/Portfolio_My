@@ -26,19 +26,26 @@ const CustomCarusel = () => {
     let items = [
         {
             name: "Random Name #1",
-            description: "Probably the most random thing you have ever seen!"
+            description: "Probably the most random thing you have ever seen!",
+            Image: "https://source.unsplash.com/featured/?macbook",
+
         },
         {
             name: "Random Name #2",
-            description: "Hello World!"
+            description: "Hello World!",
+            Image: "https://source.unsplash.com/featured/?macbook",
+
+
         },
         {
             name: "Random Name #3",
-            description: "Hello World!"
+            description: "Hello World!",
+            Image: "https://source.unsplash.com/featured/?macbook",
         },
         {
             name: "Random Name #4",
-            description: "Hello World!"
+            description: "Hello World!",
+            Image: "https://source.unsplash.com/featured/?macbook",
         }
     ]
 
@@ -47,6 +54,7 @@ const CustomCarusel = () => {
         <div className="stylesBlock">
             <Carousel
                 height={"100vh"}
+                interval={1000}
                 NextIcon={<Home/>}
                 PrevIcon={<Home/>}
                 IndicatorIcon={<Home/>} // Previous Example

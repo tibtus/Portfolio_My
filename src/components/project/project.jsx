@@ -2,6 +2,7 @@ import React from "react";
 //styles
 import "./project.css";
 import CustomCarusel from "../custom/customCarusel/customCarusel";
+
 //styles
 //imgProject Qualifications
 //MUI
@@ -15,6 +16,7 @@ const Project = () => {
             <CustomCarusel>
 
             </CustomCarusel>
+
         </div>
     )
 
