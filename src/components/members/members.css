@@ -441,10 +441,14 @@
         height: 70px;
         width: 70px;
         border-radius: 50%;
-        background: rgb(5, 7, 37) url(../props/img3.jpg);
+        /*background: rgb(5, 7, 37) url(../props/img3.jpg);*/
         background-size: cover;
         background-position: center;
         border: 2px solid var(--color-sec-light);
+    }
+
+    .members-container .member .member-img {
+        background: rgb(5, 7, 37) url(../props/img3.jpg);
     }
 
     .members-container .member .member-info {

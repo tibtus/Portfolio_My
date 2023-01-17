@@ -4,7 +4,11 @@ import "./qualifications.css";
 //styles
 import "../button/button.css";
 //imgProject Qualifications
-import imgProject from "../props/project/project0.jpg"
+import imgProjectOne from "../props/project/project0.jpg"
+import imgProjectTwo from "../props/project/project1.jpg"
+import imgProjectFree from "../props/project/project2.jpg"
+import imgProjectFour from "../props/project/project3.jpg"
+
 
 const BlockQualifications = ({block}) => {
     let {name, nameDescription, linkHref, linkName, linkImg} = block;
@@ -28,17 +32,18 @@ const BlockQualifications = ({block}) => {
 }
 
 const Qualifications = () => {
-    let [qualifications, setQualifications] = useState(true);
+    let [qualifications, setQualifications] = useState(0);
 
     let handleClick = (e) => {
-        setQualifications(!qualifications);
+
         if (e.currentTarget.classList.value === "arrow-left") {
-            console.log("LEFT",)
+            setQualifications(qualifications - 1);
         } else if (e.currentTarget.classList.value === "arrow-right") {
-            console.log("RIGHT",)
+            setQualifications(qualifications + 1);
         }
     };
 
+    console.log("qualifications", qualifications)
 
     let arrQualifications = [
         {
@@ -46,33 +51,32 @@ const Qualifications = () => {
             nameDescription: "nameDescription",
             linkHref: "https://google.com",
             linkName: "linkName",
-            linkImg: `${imgProject}`
+            linkImg: ` ${imgProjectOne ? imgProjectOne : ''}`
         },
         {
             name: "materialui",
             nameDescription: "nameDescription",
             linkHref: "https://google.com",
             linkName: "linkName",
-            linkImg: `${imgProject}`
+            linkImg: `${imgProjectTwo ? imgProjectTwo : ''}`
         },
         {
             name: "JS",
             nameDescription: "nameDescription",
             linkHref: "https://google.com",
             linkName: "linkName",
-            linkImg: `${imgProject}`
+            linkImg: `${imgProjectFree ? imgProjectFree : ''}`
         },
         {
-            name: "bootstrap",
+            name: "Bootstap",
             nameDescription: "nameDescription",
             linkHref: "https://google.com",
             linkName: "linkName",
-            linkImg: `${imgProject}`
+            linkImg: `${imgProjectFour ? imgProjectFour : ''}`
         },
+
     ];
 
-
-    /*console.log("Block", Block)*/
 
 
     return (
@@ -100,15 +104,7 @@ const Qualifications = () => {
                 <BlockQualifications block={arrQualifications[0]}/>
                 <BlockQualifications block={arrQualifications[1]}/>
                 <BlockQualifications block={arrQualifications[2]}/>
-                {/*<div className="qualification">
-            <h1>Name</h1>
-            <div className="content materialui"/>
-            <h2>material ui</h2>
-            <a href="https://google.com">
-              <h4> Link </h4>
-            </a>
-          </div>*/}
-
+                <BlockQualifications block={arrQualifications[3]}/>
             </div>
 
         </div>

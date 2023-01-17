@@ -4,7 +4,7 @@ import "./members.css";
 const Members = () => {
   return (
       <div id="members" className="container members-container">
-        <h1 className="member-txt">Courses</h1>
+        <h1 className="member-txt">Education</h1>
 
         <div className="member member-1">
           <div className="member-img">
