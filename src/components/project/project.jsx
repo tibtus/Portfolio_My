@@ -1,20 +1,23 @@
 import React from "react";
 //styles
 import "./project.css";
+import CustomCarusel from "../custom/customCarusel/customCarusel";
 //styles
-
 //imgProject Qualifications
+//MUI
 
 
 const Project = () => {
 
 
     return (
-        <div>
-            project
-        </div>
+        <div style={{width: "100%", height: "100%"}}>
+            <CustomCarusel>
 
-    );
+            </CustomCarusel>
+        </div>
+    )
+
 };
 
 export default Project;
