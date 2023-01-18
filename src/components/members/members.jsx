@@ -149,6 +149,25 @@ const Members = () => {
           </div>
         </div>
 
+        <div className="member member-7">
+          <div className="member-img"/>
+          <div className="member-info">
+            <h1 className="name"> Diploma React Developer
+            </h1>
+            <div className="position">ITVDN</div>
+            <h3 className="period"> 01.2022 - 01.2023 ( 1 year ) </h3>
+            <h4 className="about">
+              React - basic, in-depth
+            </h4>
+            <a href="https://testprovider.com/ru/search-certificate/TP68853173D/"
+               className="contact-member"
+               target={"blank"}
+            >
+              <span>Diploma</span>
+            </a>
+          </div>
+        </div>
+
       </div>
   );
 };
