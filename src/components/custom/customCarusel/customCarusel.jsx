@@ -7,8 +7,12 @@ import "./customCarusel.css";
 import {FaTelegram} from "react-icons/fa";
 import {TfiAndroid, TfiHtml5, TfiLayoutGrid3Alt, TfiMicrosoftAlt} from "react-icons/tfi";
 
-const CustomCarusel = () => {
 
+const CustomCarusel = () => {
+    //імпорт зоображення
+    const importAll = (r) => r.keys().map(r);
+    const images = importAll(require.context('../../props/project/', false, /\.(png|jpe?g|svg)$/));
+    //імпорт зоображення
 
     let handleClick = (e) => {
 
@@ -22,30 +26,28 @@ const CustomCarusel = () => {
 
     };
 
-
     return (
         <>
             <div className="bodyBlock" style={{width: "100%", border: "1px solid red"}}>
 
                 <div className="options"
-
                 >
                     <div className="option active"
-                         style={{"--optionBackground": "url(https://66.media.tumblr.com/5516a22e0cdacaa85311ec3f8fd1e9ef/tumblr_o45jwvdsL11qho82wo1_1280.jpg)"}}
-
+                         style={{"--optionBackground": `url(${images[0]}) center/cover no-repeat`}}
+                        /*style={{background: `url(${bgImage}) center/cover no-repeat`}}*/
                          onClick={handleClick}>
                         <div className="shadow"></div>
                         <div className="label">
-                        <TfiLayoutGrid3Alt className="icon"/>
-                        <div className="info">
-                            <div className="main">My WORK 1</div>
-                            <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
+                            <TfiLayoutGrid3Alt className="icon"/>
+                            <div className="info">
+                                <div className="main">My WORK 1</div>
+                                <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
+                            </div>
                         </div>
                     </div>
-                </div>
 
                 <div className="option "
-                     style={{"--optionBackground": "url(https://66.media.tumblr.com/5516a22e0cdacaa85311ec3f8fd1e9ef/tumblr_o45jwvdsL11qho82wo1_1280.jpg)"}}
+                     style={{"--optionBackground": `url(${images[1]}) center/cover no-repeat`}}
                      onClick={handleClick}
                 >
                     <div className="shadow"></div>
@@ -58,7 +60,7 @@ const CustomCarusel = () => {
                     </div>
                 </div>
                 <div className="option"
-                     style={{"--optionBackground": "url(https://66.media.tumblr.com/5516a22e0cdacaa85311ec3f8fd1e9ef/tumblr_o45jwvdsL11qho82wo1_1280.jpg)"}}
+                     style={{"--optionBackground": `url(${images[2]}) center/cover no-repeat`}}
                      onClick={handleClick}
                 >
 
@@ -72,7 +74,7 @@ const CustomCarusel = () => {
                     </div>
                 </div>
                 <div className="option"
-                     style={{"--optionBackground": "url(https://66.media.tumblr.com/5516a22e0cdacaa85311ec3f8fd1e9ef/tumblr_o45jwvdsL11qho82wo1_1280.jpg)"}}
+                     style={{"--optionBackground": `url(${images[3]}) center/cover no-repeat`}}
                      onClick={handleClick}
                 >
                     <div className="shadow"></div>
@@ -86,7 +88,7 @@ const CustomCarusel = () => {
                     </div>
                 </div>
                 <div className="option"
-                     style={{"--optionBackground": "url(https://66.media.tumblr.com/5516a22e0cdacaa85311ec3f8fd1e9ef/tumblr_o45jwvdsL11qho82wo1_1280.jpg)"}}
+                     style={{"--optionBackground": `url(${images[4]}) center/cover no-repeat`}}
                      onClick={handleClick}
                 >
                     <div className="shadow"></div>
@@ -98,7 +100,39 @@ const CustomCarusel = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+
+
+                    <div className="option"
+                         style={{"--optionBackground": `url(${images[0]}) center/cover no-repeat`}}
+                         onClick={handleClick}
+                    >
+                        <div className="shadow"></div>
+                        <div className="label">
+                            <TfiMicrosoftAlt className="icon"/>
+                            <div className="info">
+                                <div className="main">My WORK 6</div>
+                                <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div className="option"
+                         style={{"--optionBackground": `url(${images[1]}) center/cover no-repeat`}}
+                         onClick={handleClick}
+                    >
+                        <div className="shadow"></div>
+                        <div className="label">
+                            <TfiMicrosoftAlt className="icon"/>
+                            <div className="info">
+                                <div className="main">My WORK 6</div>
+                                <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
 
 
         </div>

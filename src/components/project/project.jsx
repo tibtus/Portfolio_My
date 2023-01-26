@@ -9,7 +9,7 @@ const Project = () => {
 
     return (
         <div style={{width: "100%"}}>
-            <h1 className="member-txt">Education</h1>
+            <h1 className="member-txt">Project</h1>
             <CustomCarusel/>
         </div>
     )

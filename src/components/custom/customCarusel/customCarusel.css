@@ -72,6 +72,7 @@
     overflow: hidden;
     min-width: 60px;
     margin: 10px;
+    /*background: url(https://66.media.tumblr.com/5516a22e0cdacaa85311ec3f8fd1e9ef/tumblr_o45jwvdsL11qho82wo1_1280.jpg);*/
     background: var(--optionBackground, var(--defaultBackground, #e6e9ed));
     background-size: auto 120%;
     background-position: center;
