@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 //styles
 import "./project.css";
 import CustomCarusel from "../custom/customCarusel/customCarusel";
-import {FaTelegram} from "react-icons/fa";
+import {BsApp} from "react-icons/bs";
 
 const Project = ({className}) => {
 
@@ -12,7 +12,7 @@ const Project = ({className}) => {
 
     useEffect(() => {
         const divElements = document.querySelectorAll(`.${className} .option`);
-        const elementsArray = Array.from(divElements).map(w => <FaTelegram className="icon"/>);
+        const elementsArray = Array.from(divElements).map(w => <BsApp className="icon"/>);
         setElements(elementsArray);
     }, [className]);
 
@@ -36,7 +36,7 @@ const Project = ({className}) => {
             <h1 className="member-txt">Project</h1>
             <CustomCarusel/>
             <div className="member-nav">
-                {/*{activeIndex + 1}*/}
+                {activeIndex + 1}
                 <ul>
                     {elements.map((element, index) => (
                         <li key={index}

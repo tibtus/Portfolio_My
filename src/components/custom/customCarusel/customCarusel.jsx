@@ -4,8 +4,7 @@ import React from "react"
 import "./customCarusel.css";
 //MUI
 // react icons
-import {FaTelegram} from "react-icons/fa";
-import {TfiAndroid, TfiHtml5, TfiLayoutGrid3Alt, TfiMicrosoftAlt} from "react-icons/tfi";
+import {TfiLayoutGrid3Alt,} from "react-icons/tfi";
 
 
 const CustomCarusel = () => {
@@ -52,7 +51,7 @@ const CustomCarusel = () => {
                 >
                     <div className="shadow"></div>
                     <div className="label">
-                        <FaTelegram className="icon"/>
+                        <TfiLayoutGrid3Alt className="icon"/>
                         <div className="info">
                             <div className="main">My WORK 2</div>
                             <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
@@ -66,7 +65,7 @@ const CustomCarusel = () => {
 
                     <div className="shadow"></div>
                     <div className="label">
-                        <TfiHtml5 className="icon"/>
+                        <TfiLayoutGrid3Alt className="icon"/>
                         <div className="info">
                             <div className="main">My WORK 3</div>
                             <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
@@ -80,7 +79,7 @@ const CustomCarusel = () => {
                     <div className="shadow"></div>
                     <div className="label">
 
-                        <TfiAndroid className="icon"/>
+                        <TfiLayoutGrid3Alt className="icon"/>
                         <div className="info">
                             <div className="main">My WORK 4</div>
                             <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
@@ -93,7 +92,7 @@ const CustomCarusel = () => {
                 >
                     <div className="shadow"></div>
                     <div className="label">
-                        <TfiMicrosoftAlt className="icon"/>
+                        <TfiLayoutGrid3Alt className="icon"/>
                         <div className="info">
                             <div className="main">My WORK 5</div>
                             <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
@@ -108,7 +107,7 @@ const CustomCarusel = () => {
                     >
                         <div className="shadow"></div>
                         <div className="label">
-                            <TfiMicrosoftAlt className="icon"/>
+                            <TfiLayoutGrid3Alt className="icon"/>
                             <div className="info">
                                 <div className="main">My WORK 6</div>
                                 <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
@@ -123,7 +122,7 @@ const CustomCarusel = () => {
                     >
                         <div className="shadow"></div>
                         <div className="label">
-                            <TfiMicrosoftAlt className="icon"/>
+                            <TfiLayoutGrid3Alt className="icon"/>
                             <div className="info">
                                 <div className="main">My WORK 7</div>
                                 <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>

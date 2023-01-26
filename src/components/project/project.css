@@ -35,3 +35,7 @@
 .member-nav ul li {
     list-style-type: none
 }
+
+.member-nav ul li .active {
+    border: 1px solid red;
+}
