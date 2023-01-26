@@ -46,6 +46,17 @@
         margin: 2px;
         max-width: 50px;
     }
+
+    .bodyBlock .options .option .label .icon {
+        display: none;
+        min-width: 40px;
+        max-width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        border: 1px solid var(--color-pri-light);
+        /*background-color: var(--color-pri-light);*/
+
+    }
 }
 
 @media screen and (max-width: 860px) {
@@ -58,9 +69,9 @@
         margin: 5px;
     }
 
-    .bodyBlock .options .option.active {
+    /*.bodyBlock .options .option.active {
 
-    }
+    }*/
 }
 
 @media screen and (max-width: 762px) {
@@ -188,7 +199,6 @@
     max-width: 40px;
     height: 40px;
     border-radius: 100%;
-
     /*background-color: var(--color-pri-light);*/
 
 }
@@ -200,6 +210,7 @@
     margin-left: 10px;
     color: white;
     white-space: pre;
+
 }
 
 .bodyBlock .options .option .label .info > div {
