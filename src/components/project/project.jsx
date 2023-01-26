@@ -33,7 +33,7 @@ const Project = ({className}) => {
 
     return (
         <div style={{width: "100%"}}>
-            <h1 className="member-txt">Project</h1>
+            <h1 className="member-txt">Projects</h1>
             <CustomCarusel/>
             <div className="member-nav">
                 {/*{activeIndex + 1}*/}
