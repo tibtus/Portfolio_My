@@ -175,8 +175,9 @@
     max-width: 40px;
     height: 40px;
     border-radius: 100%;
-    background-color: white;
+    /*background-color: white;*/
     color: var(--defaultBackground);
+
 }
 
 .bodyBlock .options .option .label .info {
@@ -186,6 +187,7 @@
     margin-left: 10px;
     color: white;
     white-space: pre;
+
 }
 
 .bodyBlock .options .option .label .info > div {

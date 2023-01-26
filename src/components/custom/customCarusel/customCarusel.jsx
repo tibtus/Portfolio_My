@@ -3,78 +3,96 @@ import React from "react"
 //styles
 import "./customCarusel.css";
 //MUI
+// react icons
+import {FaTelegram} from "react-icons/fa";
+import {TfiAndroid, TfiHtml5, TfiLayoutGrid3Alt, TfiMicrosoftAlt} from "react-icons/tfi";
 
 const CustomCarusel = () => {
 
 
-    /* $(".option").click(function(){
-         $(".option").removeClass("active");
-         $(this).addClass("active");
+    let handleClick = (e) => {
 
-     });*/
+        let foo = document.querySelectorAll(".options .option");
+
+        for (let i = 0; i < foo.length; i++) {
+
+            foo[i].classList.remove("active");
+        }
+        e.currentTarget.classList.add("active");
+
+    };
 
 
     return (
         <div className="bodyBlock">
-            <div className="options">
-                <div className="option active">
+            <div className="options"
+
+            >
+                <div className="option active"
+                     style={{"--optionBackground": "url(https://66.media.tumblr.com/5516a22e0cdacaa85311ec3f8fd1e9ef/tumblr_o45jwvdsL11qho82wo1_1280.jpg)"}}
+
+                     onClick={handleClick}>
                     <div className="shadow"></div>
                     <div className="label">
-                        <div className="icon">
-                            <i className="fas fa-walking"></i>
-                        </div>
+                        <TfiLayoutGrid3Alt className="icon"/>
                         <div className="info">
-                            <div className="main">Blonkisoaz</div>
-                            <div className="sub">Omuke trughte a otufta</div>
+                            <div className="main">My WORK 1</div>
+                            <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
                         </div>
                     </div>
                 </div>
-                <div className="option">
+
+                <div className="option "
+                     style={{"--optionBackground": "url(https://66.media.tumblr.com/5516a22e0cdacaa85311ec3f8fd1e9ef/tumblr_o45jwvdsL11qho82wo1_1280.jpg)"}}
+                     onClick={handleClick}
+                >
                     <div className="shadow"></div>
                     <div className="label">
-                        <div className="icon">
-                            <i className="fas fa-snowflake"></i>
-                        </div>
+                        <FaTelegram className="icon"/>
                         <div className="info">
-                            <div className="main">Oretemauw</div>
-                            <div className="sub">Omuke trughte a otufta</div>
-                        </div>
-                    </div>
-                </div>
-                <div className="option">
-                    <div className="shadow"></div>
-                    <div className="label">
-                        <div className="icon">
-                            <i className="fas fa-tree"></i>
-                        </div>
-                        <div className="info">
-                            <div className="main">Iteresuselle</div>
-                            <div className="sub">Omuke trughte a otufta</div>
-                        </div>
-                    </div>
-                </div>
-                <div className="option">
-                    <div className="shadow"></div>
-                    <div className="label">
-                        <div className="icon">
-                            <i className="fas fa-tint"></i>
-                        </div>
-                        <div className="info">
-                            <div className="main">Idiefe</div>
-                            <div className="sub">Omuke trughte a otufta</div>
+                            <div className="main">My WORK 2</div>
+                            <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
                         </div>
                     </div>
                 </div>
                 <div className="option"
-                     style={{color: "red"}}>
+                     style={{"--optionBackground": "url(https://66.media.tumblr.com/5516a22e0cdacaa85311ec3f8fd1e9ef/tumblr_o45jwvdsL11qho82wo1_1280.jpg)"}}
+                     onClick={handleClick}
+                >
+
                     <div className="shadow"></div>
                     <div className="label">
-                        <div className="icon">
-                            <i className="fas fa-sun"></i>
-                        </div>
+                        <TfiHtml5 className="icon"/>
                         <div className="info">
-                            <div className="main">Inatethi</div>
-                            <div className="sub">Omuke trughte a otufta</div>
+                            <div className="main">My WORK 3</div>
+                            <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
+                        </div>
+                    </div>
+                </div>
+                <div className="option"
+                     style={{"--optionBackground": "url(https://66.media.tumblr.com/5516a22e0cdacaa85311ec3f8fd1e9ef/tumblr_o45jwvdsL11qho82wo1_1280.jpg)"}}
+                     onClick={handleClick}
+                >
+                    <div className="shadow"></div>
+                    <div className="label">
+
+                        <TfiAndroid className="icon"/>
+                        <div className="info">
+                            <div className="main">My WORK 4</div>
+                            <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
+                        </div>
+                    </div>
+                </div>
+                <div className="option"
+                     style={{"--optionBackground": "url(https://66.media.tumblr.com/5516a22e0cdacaa85311ec3f8fd1e9ef/tumblr_o45jwvdsL11qho82wo1_1280.jpg)"}}
+                     onClick={handleClick}
+                >
+                    <div className="shadow"></div>
+                    <div className="label">
+                        <TfiMicrosoftAlt className="icon"/>
+                        <div className="info">
+                            <div className="main">My WORK 5</div>
+                            <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
                         </div>
                     </div>
                 </div>
