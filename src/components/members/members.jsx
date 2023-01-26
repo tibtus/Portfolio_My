@@ -131,7 +131,7 @@ const Members = () => {
               from scratch,
               basics and application architecture
             </h4>
-            <a href="https://www.udemy.com/certificate/UC-53a42935-ee6d-49d8-8d91-5553f6619690/"
+            <a href="https://www.udemy.com/certificate/UC-58882fd2-6f76-43dd-b30d-2e648d544627/"
                className="contact-member"
                target={"blank"}
             >
@@ -149,13 +149,13 @@ const Members = () => {
             </h1>
             <h3 className="period"> 08.2022 - 12.2022 ( 4 months ) </h3>
             <h4 className="about">
-              Angular
+              Angular 8+, TypeScript , RxJS
             </h4>
-            <a href="https://www.udemy.com/certificate/UC-53a42935-ee6d-49d8-8d91-5553f6619690/"
+            <a href="https://www.udemy.com/certificate/UC-8ed1bd42-9be0-4127-b7b5-7a72b7a58d83/"
                className="contact-member"
                target={"blank"}
             >
-              <span>UDEMY</span>
+              <span>Certificate</span>
             </a>
           </div>
         </div>

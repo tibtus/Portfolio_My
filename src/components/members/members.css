@@ -45,13 +45,51 @@
 .members-container .member .member-img {
     height: 150px;
     width: 150px;
-    max-width: 20%;
+    min-width: 20%;
     border-radius: 20px;
-    background: rgb(5, 7, 37) url(../props/img3.jpg);
+    position: relative;
+}
+
+.members-container .member-1 .member-img {
+    background: rgb(5, 7, 37) url(../props/certificate/udemy.png);
     background-size: cover;
     background-position: center;
-    border: 2px solid var(--color-sec-light);
-    position: relative;
+}
+
+.members-container .member-2 .member-img {
+    background: rgb(5, 7, 37) url(../props/certificate/udemy.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.members-container .member-3 .member-img {
+    background: rgb(5, 7, 37) url(../props/certificate/udemy.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.members-container .member-4 .member-img {
+    background: rgb(5, 7, 37) url(../props/certificate/udemy.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.members-container .member-5 .member-img {
+    background: rgb(5, 7, 37) url(../props/certificate/udemy.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.members-container .member-6 .member-img {
+    background: rgb(5, 7, 37) url(../props/certificate/udemy.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.members-container .member-7 .member-img {
+    background: rgb(5, 7, 37) url(../props/certificate/ITVDN.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .members-container .member .member-img .position {
@@ -60,9 +98,11 @@
     position: absolute;
     bottom: -25px;
     left: 50%;
+    transform: translateX(-50%);
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 2px;
+
 
 }
 
@@ -83,15 +123,6 @@
 }
 
 
-.members-container .member .member-info .position {
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    /*color: var(--color-pink);*/
-    /*margin-top: 3px;*/
-    margin-bottom: 3px;
-}
-
 .members-container .member .member-info .about {
     margin-top: 5px;
     font-weight: 100;
@@ -100,7 +131,7 @@
 }
 
 .members-container .member .member-info .contact-member {
-    background-color: var(--color-sec-light);
+    background-color: var(--color-pri-light);
     padding: 17px 35px;
     font-size: 18px;
 
@@ -121,7 +152,7 @@
 
 .members-container .member .member-info .contact-member:hover {
     background-color: transparent;
-    border: 2px solid var(--color-sec-light);
+    border: 2px solid var(--color-pri);
 }
 
 @media (max-width: 820px) {
@@ -151,54 +182,48 @@
     }
 
     .members-container .member .member-img {
-        height: 100px;
-        width: 100px;
-        border-radius: 50%;
-        background: rgb(5, 7, 37) url(../props/img3.jpg);
+        height: 70px;
+        width: 70px;
+        border-radius: 10%;
         background-size: cover;
         background-position: center;
-        border: 2px solid var(--color-sec-light);
     }
 
     .members-container .member .member-info {
         position: relative;
-        margin-left: 10px;
         font-family: "Open Sans Condensed";
         max-width: 80%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
+
     }
 
     .members-container .member .member-info .name {
-        margin-top: 20%;
+        font-size: 20px;
         font-weight: 500;
         letter-spacing: 2px;
     }
 
-    .members-container .member .member-info .position {
-        font-size: 25px;
-        font-weight: 200;
-        letter-spacing: 2px;
-    }
 
     .members-container .member .member-info .about {
-        margin-top: 10px;
-        font-weight: 100;
-        font-size: 28px;
+        margin-top: 5px;
+        font-size: 14px;
 
     }
 
+    .members-container .member .member-info .period {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+
+
     .members-container .member .member-info a.contact-member {
-        background-color: var(--color-sec-light);
         padding: 15px 25px;
-        font-size: 25px;
-        border-radius: 50px;
+        font-size: 12px;
         transition: 0.1s ease;
         position: absolute;
-        /*top: -55px;
-        right: 10px;*/
     }
 }
 
@@ -230,11 +255,6 @@
     .members-container .member .member-img {
         height: 70px;
         width: 70px;
-        border-radius: 50%;
-        background: rgb(5, 7, 37) url(../props/img3.jpg);
-        background-size: cover;
-        background-position: center;
-        border: 2px solid var(--color-sec-light);
     }
 
     .members-container .member .member-info {
@@ -267,14 +287,10 @@
     }
 
     .members-container .member .member-info a.contact-member {
-        background-color: var(--color-sec-light);
         padding: 15px 25px;
-        font-size: 15px;
         border-radius: 50px;
         transition: 0.1s ease;
         position: absolute;
-        /*top: -55px;
-        right: 10px;*/
     }
 }
 
@@ -295,22 +311,26 @@
         justify-content: flex-start;
         align-items: flex-start;
         width: 100%;
-        margin-top: 15px;
-        margin-bottom: 25px;
+        margin-top: 5px;
+        margin-bottom: 5px;
         background: rgba(0, 0, 0, 0.116);
-        padding: 15px;
-        border-radius: 50px;
+        padding: 5px;
+        border-radius: 10px;
         backdrop-filter: blur(20px);
     }
 
     .members-container .member .member-img {
         height: 70px;
         width: 70px;
-        border-radius: 50%;
-        background: rgb(5, 7, 37) url(../props/img3.jpg);
+        border-radius: 10%;
         background-size: cover;
         background-position: center;
-        border: 2px solid var(--color-sec-light);
+
+    }
+
+    .members-container .member .member-img .position {
+        font-size: 10px;
+
     }
 
     .members-container .member .member-info {
@@ -325,32 +345,29 @@
     }
 
     .members-container .member .member-info .name {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 500;
-        letter-spacing: 2px;
+
     }
 
     .members-container .member .member-info .position {
-        font-size: 12px;
+        font-size: 8px;
         font-weight: 200;
-        letter-spacing: 2px;
+
     }
 
     .members-container .member .member-info .about {
-        margin-top: 10px;
+        margin-top: 8px;
         font-weight: 100;
         font-size: 16px;
     }
 
     .members-container .member .member-info a.contact-member {
-        background-color: var(--color-sec-light);
         padding: 15px 25px;
-        font-size: 15px;
+        font-size: 12px;
         border-radius: 50px;
         transition: 0.1s ease;
         position: absolute;
-        /*    top: -55px;
-            right: 10px;*/
     }
 }
 
@@ -363,7 +380,7 @@
         align-items: flex-start;
         min-height: 100vh;
         margin-top: 10px;
-        padding: 10px;
+        padding: 2px;
     }
 
     .members-container .member {
@@ -372,22 +389,21 @@
         justify-content: flex-start;
         align-items: flex-start;
         width: 100%;
-        margin-top: 15px;
-        margin-bottom: 25px;
+        margin-top: 5px;
+        margin-bottom: 5px;
         background: rgba(0, 0, 0, 0.116);
         padding: 15px;
-        border-radius: 50px;
+
         backdrop-filter: blur(20px);
     }
 
     .members-container .member .member-img {
-        height: 70px;
-        width: 70px;
-        border-radius: 50%;
-        background: rgb(5, 7, 37) url(../props/img3.jpg);
+        height: 40px;
+        width: 40px;
+
         background-size: cover;
         background-position: center;
-        border: 2px solid var(--color-sec-light);
+
     }
 
     .members-container .member .member-info {
@@ -420,94 +436,13 @@
     }
 
     .members-container .member .member-info a.contact-member {
-        background-color: var(--color-sec-light);
+
         padding: 15px 25px;
-        font-size: 15px;
+        font-size: 12px;
         border-radius: 50px;
         transition: 0.1s ease;
         position: absolute;
-        /*top: -55px;
-        right: 10px;*/
     }
 }
 
-@media (max-width: 375px) {
-    .members-container {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        min-height: 100vh;
-        margin-top: 10px;
-        padding: 10px;
-    }
 
-    .members-container .member {
-        position: relative;
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        width: 100%;
-        margin-top: 15px;
-        margin-bottom: 20px;
-        background: rgba(0, 0, 0, 0.116);
-        padding: 15px;
-        border-radius: 50px;
-        backdrop-filter: blur(20px);
-    }
-
-    .members-container .member .member-img {
-        height: 70px;
-        width: 70px;
-        border-radius: 50%;
-        /*background: rgb(5, 7, 37) url(../props/img3.jpg);*/
-        background-size: cover;
-        background-position: center;
-        border: 2px solid var(--color-sec-light);
-    }
-
-    .members-container .member .member-img {
-        background: rgb(5, 7, 37) url(../props/img3.jpg);
-    }
-
-    .members-container .member .member-info {
-        position: relative;
-        margin-left: 10px;
-        font-family: "Open Sans Condensed";
-        max-width: 70%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-    }
-
-    .members-container .member .member-info .name {
-        font-size: 19px;
-        font-weight: 500;
-        letter-spacing: 2px;
-    }
-
-    .members-container .member .member-info .position {
-        font-size: 14px;
-        font-weight: 200;
-        letter-spacing: 2px;
-    }
-
-    .members-container .member .member-info .about {
-        margin-top: 10px;
-        font-weight: 100;
-        font-size: 16px;
-    }
-
-    .members-container .member .member-info a.contact-member {
-        background-color: var(--color-sec-light);
-        padding: 15px 25px;
-        font-size: 15px;
-        border-radius: 50px;
-        transition: 0.1s ease;
-        position: absolute;
-        /* top: -55px;
-         right: 5px;*/
-    }
-}
