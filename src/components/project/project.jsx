@@ -1,7 +1,7 @@
 import React from "react";
 //styles
 import "./project.css";
-import CustomCarusel from "../custom/customCarusel/customCarusel";
+/*import CustomCarusel from "../custom/customCarusel/customCarusel";*/
 
 //styles
 //imgProject Qualifications
@@ -13,9 +13,9 @@ const Project = () => {
 
     return (
         <div style={{width: "100%"}}>
-            <CustomCarusel>
+            {/*            <CustomCarusel>
 
-            </CustomCarusel>
+            </CustomCarusel>*/}
 
         </div>
     )

@@ -8,12 +8,14 @@ const Members = () => {
 
         <div className="member member-1">
           <div className="member-img">
+            <div className="position">UDEMY</div>
           </div>
+
           <div className="member-info">
             <h1 className="name">
               Course "Web Developer"
             </h1>
-            <div className="position">UDEMY</div>
+
             <h3 className="period"> 04.2021 - 08.2021 ( 4 months ) </h3>
             <h4 className="about">
               HTML5 | CSS3 |
@@ -35,10 +37,12 @@ const Members = () => {
         </div>
 
         <div className="member member-2">
-          <div className="member-img"/>
+          <div className="member-img">
+            <div className="position">UDEMY</div>
+          </div>
           <div className="member-info">
             <h1 className="name">Course "Complete JavaScript + React"</h1>
-            <h3 className="position">UDEMY</h3>
+
             <h3 className="period">
               08.2021 - 04.2022 ( 8 months )
             </h3>
@@ -66,10 +70,12 @@ const Members = () => {
         </div>
 
         <div className="member member-3">
-          <div className="member-img"></div>
+          <div className="member-img">
+            <div className="position">UDEMY</div>
+          </div>
           <div className="member-info">
             <h1 className="name">Course "CMS WordPress"</h1>
-            <h3 className="position">UDEMY</h3>
+
             <h3 className="period">
               08.2021 - 09.2021 ( 1 month )
             </h3>
@@ -90,11 +96,13 @@ const Members = () => {
         </div>
 
         <div className="member member-4">
-          <div className="member-img"></div>
+          <div className="member-img">
+            <div className="position">UDEMY</div>
+          </div>
           <div className="member-info">
             <h1 className="name">Course "Practical JavaScript –
               Advanced Level" </h1>
-            <h3 className="position">UDEMY</h3>
+
             <h3 className="period"> 10.2021 - 12.2021 ( 2 months )
             </h3>
             <h4 className="about">
@@ -111,11 +119,13 @@ const Members = () => {
         </div>
 
         <div className="member member-5">
-          <div className="member-img"/>
+          <div className="member-img">
+            <div className="position">UDEMY</div>
+          </div>
           <div className="member-info">
             <h1 className="name"> Course "Node.js"
             </h1>
-            <div className="position">UDEMY</div>
+
             <h3 className="period"> 06.2022 - 10.2022 ( 4 months ) </h3>
             <h4 className="about">
               from scratch,
@@ -131,30 +141,33 @@ const Members = () => {
         </div>
 
         <div className="member member-6">
-          <div className="member-img"/>
+          <div className="member-img">
+            <div className="position">UDEMY</div>
+          </div>
           <div className="member-info">
             <h1 className="name"> Course "Angular"
             </h1>
-            <div className="position">UDEMY</div>
             <h3 className="period"> 08.2022 - 12.2022 ( 4 months ) </h3>
             <h4 className="about">
-
+              Angular
             </h4>
             <a href="https://www.udemy.com/certificate/UC-53a42935-ee6d-49d8-8d91-5553f6619690/"
                className="contact-member"
                target={"blank"}
             >
-              <span>Certificate</span>
+              <span>UDEMY</span>
             </a>
           </div>
         </div>
 
         <div className="member member-7">
-          <div className="member-img"/>
+          <div className="member-img">
+            <div className="position">ITVDN</div>
+          </div>
           <div className="member-info">
             <h1 className="name"> Diploma React Developer
             </h1>
-            <div className="position">ITVDN</div>
+
             <h3 className="period"> 01.2022 - 01.2023 ( 1 year ) </h3>
             <h4 className="about">
               React - basic, in-depth
