@@ -125,7 +125,7 @@ const CustomCarusel = () => {
                         <div className="label">
                             <TfiMicrosoftAlt className="icon"/>
                             <div className="info">
-                                <div className="main">My WORK 6</div>
+                                <div className="main">My WORK 7</div>
                                 <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
                             </div>
                         </div>

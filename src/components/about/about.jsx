@@ -4,7 +4,6 @@ import "./about.css";
 //components
 import Project from "../project/project";
 
-
 function About() {
     return (
         <div id="about" className="container about-container">
