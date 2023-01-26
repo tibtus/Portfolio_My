@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    height: 100vh;
+    /*height: 100vh;*/
     font-family: "Roboto", sans-serif;
     transition: 0.25s;
 }
@@ -24,7 +24,7 @@
     min-width: 600px;
     max-width: 900px;
     width: calc(100% - 100px);
-    height: 400px;
+    height: 800px;
 }
 
 @media screen and (max-width: 718px) {

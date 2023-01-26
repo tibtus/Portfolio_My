@@ -24,16 +24,18 @@ const CustomCarusel = () => {
 
 
     return (
-        <div className="bodyBlock">
-            <div className="options"
+        <>
+            <div className="bodyBlock" style={{width: "100%", border: "1px solid red"}}>
 
-            >
-                <div className="option active"
-                     style={{"--optionBackground": "url(https://66.media.tumblr.com/5516a22e0cdacaa85311ec3f8fd1e9ef/tumblr_o45jwvdsL11qho82wo1_1280.jpg)"}}
+                <div className="options"
 
-                     onClick={handleClick}>
-                    <div className="shadow"></div>
-                    <div className="label">
+                >
+                    <div className="option active"
+                         style={{"--optionBackground": "url(https://66.media.tumblr.com/5516a22e0cdacaa85311ec3f8fd1e9ef/tumblr_o45jwvdsL11qho82wo1_1280.jpg)"}}
+
+                         onClick={handleClick}>
+                        <div className="shadow"></div>
+                        <div className="label">
                         <TfiLayoutGrid3Alt className="icon"/>
                         <div className="info">
                             <div className="main">My WORK 1</div>
@@ -100,6 +102,7 @@ const CustomCarusel = () => {
 
 
         </div>
+        </>
 
     );
 };

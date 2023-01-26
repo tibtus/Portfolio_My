@@ -3,20 +3,14 @@ import React from "react";
 import "./project.css";
 import CustomCarusel from "../custom/customCarusel/customCarusel";
 
-//styles
-//imgProject Qualifications
-//MUI
-
 
 const Project = () => {
 
 
     return (
         <div style={{width: "100%"}}>
-            <CustomCarusel>
-
-            </CustomCarusel>
-
+            <h1 className="member-txt">Education</h1>
+            <CustomCarusel/>
         </div>
     )
 
