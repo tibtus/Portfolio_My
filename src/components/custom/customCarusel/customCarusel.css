@@ -91,17 +91,18 @@
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 575px) {
     .bodyBlock .options {
-        min-width: 350px;
+        min-width: 400px;
     }
 
 
     .bodyBlock .options .option {
-
+        display: none;
     }
 
     .bodyBlock .options .option.active {
+        display: block;
         min-width: 30px;
         max-width: 50px;
     }
