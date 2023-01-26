@@ -3,8 +3,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-    /*height: 100vh;*/
+    /*overflow: hidden;*/
     font-family: "Roboto", sans-serif;
     transition: 0.25s;
 }
@@ -23,97 +22,108 @@
     overflow: hidden;
     min-width: 600px;
     max-width: 900px;
-    width: calc(100% - 100px);
+    width: calc(100% - 50px);
     height: 800px;
+    padding: 20px;
+
 }
 
-@media screen and (max-width: 718px) {
+@media screen and (max-width: 1000px) {
     .bodyBlock .options {
         min-width: 520px;
     }
 
-    .bodyBlock .options .option:nth-child(5) {
-        display: none;
+
+    .bodyBlock .options .option {
+        min-width: 8px;
+        width: 60px;
+        margin: 2px;
+    }
+
+    .bodyBlock .options .option.active {
+        margin: 2px;
+        max-width: 100px;
     }
 }
 
-@media screen and (max-width: 638px) {
+@media screen and (max-width: 860px) {
     .bodyBlock .options {
         min-width: 440px;
     }
 
-    .bodyBlock .options .option:nth-child(4) {
-        display: none;
+
+    .bodyBlock .options .option {
+        min-width: 10px;
+        width: 60px;
+        margin: 5px;
+    }
+
+    .bodyBlock .options .option.active {
+
     }
 }
 
-@media screen and (max-width: 558px) {
+@media screen and (max-width: 762px) {
     .bodyBlock .options {
         min-width: 360px;
     }
 
-    .bodyBlock .options .option:nth-child(3) {
-        display: none;
+
+    .bodyBlock .options .option {
+        min-width: 10px;
+        width: 60px;
+        margin: 5px;
+    }
+
+    .bodyBlock .options .option.active {
+
     }
 }
 
-@media screen and (max-width: 478px) {
+@media screen and (max-width: 665px) {
     .bodyBlock .options {
         min-width: 280px;
     }
 
-    .bodyBlock .options .option:nth-child(2) {
-        display: none;
+
+    .bodyBlock .options .option {
+
     }
+
+    .bodyBlock .options .option.active {
+        min-width: 30px;
+        max-width: 50px;
+    }
+
+
 }
+
 
 .bodyBlock .options .option {
     position: relative;
     overflow: hidden;
-    min-width: 60px;
+    min-width: 20px;
+    width: 60px;
     margin: 10px;
-    /*background: url(https://66.media.tumblr.com/5516a22e0cdacaa85311ec3f8fd1e9ef/tumblr_o45jwvdsL11qho82wo1_1280.jpg);*/
-    background: var(--optionBackground, var(--defaultBackground, #e6e9ed));
+    background: var(--optionBackground, #e6e9ed);
     background-size: auto 120%;
     background-position: center;
     cursor: pointer;
     transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
-}
-
-.bodyBlock .options .option:nth-child(1) {
-    --defaultBackground: #ed5565;
-}
-
-.bodyBlock .options .option:nth-child(2) {
-    --defaultBackground: #fc6e51;
-}
-
-.bodyBlock .options .option:nth-child(3) {
-    --defaultBackground: #ffce54;
-}
-
-.bodyBlock .options .option:nth-child(4) {
-    --defaultBackground: #2ecc71;
-}
-
-.bodyBlock .options .option:nth-child(5) {
-    --defaultBackground: #5d9cec;
-}
-
-.bodyBlock .options .option:nth-child(6) {
-    --defaultBackground: #ac92ec;
+    -webkit-box-shadow: inset 0 0 25px 15px rgba(97, 97, 97, 0.56);
+    -moz-box-shadow: inset 0 0 25px 15px rgba(97, 97, 97, 0.56);
+    box-shadow: inset 0 0 25px 15px rgba(97, 97, 97, 0.56);
 }
 
 .bodyBlock .options .option.active {
     flex-grow: 10000;
     transform: scale(1);
+    min-width: 300px;
     max-width: 600px;
     margin: 0px;
     border-radius: 40px;
     background-size: auto 100%;
-    /*&:active {
-                 transform:scale(0.9);
-              }*/
+
 }
 
 .bodyBlock .options .option.active .shadow {
@@ -132,7 +142,7 @@
 
 .bodyBlock .options .option:not(.active) {
     flex-grow: 1;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 .bodyBlock .options .option:not(.active) .shadow {
@@ -163,7 +173,7 @@
     display: flex;
     position: absolute;
     right: 0px;
-    height: 40px;
+    height: 50px;
     transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
 }
 
@@ -176,8 +186,7 @@
     max-width: 40px;
     height: 40px;
     border-radius: 100%;
-    /*background-color: white;*/
-    color: var(--defaultBackground);
+    background-color: var(--color-pri-light);
 
 }
 
@@ -188,7 +197,6 @@
     margin-left: 10px;
     color: white;
     white-space: pre;
-
 }
 
 .bodyBlock .options .option .label .info > div {

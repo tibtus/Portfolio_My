@@ -8,7 +8,7 @@ import Project from "../project/project";
 function About() {
     return (
         <div id="about" className="container about-container">
-            <Project/>
+            <Project className={"options"}/>
         </div>
     );
 }

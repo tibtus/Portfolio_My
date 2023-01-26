@@ -28,7 +28,7 @@ const CustomCarusel = () => {
 
     return (
         <>
-            <div className="bodyBlock" style={{width: "100%", border: "1px solid red"}}>
+            <div className="bodyBlock" style={{width: "100%"}}>
 
                 <div className="options"
                 >
@@ -133,7 +133,6 @@ const CustomCarusel = () => {
 
 
                 </div>
-
 
         </div>
         </>
