@@ -4,8 +4,7 @@ import React from "react"
 import "./customCarusel.css";
 //MUI
 // react icons
-import {TfiLayoutGrid3Alt,} from "react-icons/tfi";
-
+import {DiGit, DiJsBadge, DiReact} from "react-icons/di";
 
 const CustomCarusel = () => {
     //імпорт зоображення
@@ -37,7 +36,7 @@ const CustomCarusel = () => {
                          onClick={handleClick}>
                         <div className="shadow"></div>
                         <div className="label">
-                            <TfiLayoutGrid3Alt className="icon"/>
+                            <DiGit className="icon"/>
                             <div className="info">
                                 <div className="main">My WORK 1</div>
                                 <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
@@ -51,7 +50,7 @@ const CustomCarusel = () => {
                 >
                     <div className="shadow"></div>
                     <div className="label">
-                        <TfiLayoutGrid3Alt className="icon"/>
+                        <DiReact className="icon"/>
                         <div className="info">
                             <div className="main">My WORK 2</div>
                             <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
@@ -65,7 +64,7 @@ const CustomCarusel = () => {
 
                     <div className="shadow"></div>
                     <div className="label">
-                        <TfiLayoutGrid3Alt className="icon"/>
+                        <DiJsBadge className="icon"/>
                         <div className="info">
                             <div className="main">My WORK 3</div>
                             <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
@@ -79,7 +78,7 @@ const CustomCarusel = () => {
                     <div className="shadow"></div>
                     <div className="label">
 
-                        <TfiLayoutGrid3Alt className="icon"/>
+                        <DiReact className="icon"/>
                         <div className="info">
                             <div className="main">My WORK 4</div>
                             <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
@@ -92,7 +91,7 @@ const CustomCarusel = () => {
                 >
                     <div className="shadow"></div>
                     <div className="label">
-                        <TfiLayoutGrid3Alt className="icon"/>
+                        <DiJsBadge className="icon"/>
                         <div className="info">
                             <div className="main">My WORK 5</div>
                             <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
@@ -107,7 +106,7 @@ const CustomCarusel = () => {
                     >
                         <div className="shadow"></div>
                         <div className="label">
-                            <TfiLayoutGrid3Alt className="icon"/>
+                            <DiReact className="icon"/>
                             <div className="info">
                                 <div className="main">My WORK 6</div>
                                 <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
@@ -122,7 +121,7 @@ const CustomCarusel = () => {
                     >
                         <div className="shadow"></div>
                         <div className="label">
-                            <TfiLayoutGrid3Alt className="icon"/>
+                            <DiJsBadge className="icon"/>
                             <div className="info">
                                 <div className="main">My WORK 7</div>
                                 <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
