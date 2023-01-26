@@ -5,29 +5,30 @@ import CustomCarusel from "../custom/customCarusel/customCarusel";
 
 
 const Project = ({className}) => {
+
     const [elements, setElements] = useState([]);
     const [activeIndex, setActiveIndex] = useState(0);
 
-    /*const divElements = document.querySelectorAll(`.${propsClass} .option`);*/
-    const divElements = document.querySelectorAll(`.options .option`);
-
 
     useEffect(() => {
+        const divElements = document.querySelectorAll(`.${className} .option`);
         const elementsArray = Array.from(divElements).map(element => element.textContent);
-
         setElements(elementsArray);
+    }, [className]);
 
-    }, [divElements]);
-
-    const handleSelect = (index) => {
-        setActiveIndex(index);
+    useEffect(() => {
+        const divElements = document.querySelectorAll(`.${className} .option`);
         divElements.forEach((element, i) => {
-            if (i === index) {
+            if (i === activeIndex) {
                 element.classList.add("active");
             } else {
                 element.classList.remove("active");
             }
         });
+    }, [activeIndex, className]);
+
+    const handleSelect = (index) => {
+        setActiveIndex(index);
     }
 
     return (
