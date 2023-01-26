@@ -48,12 +48,16 @@
     min-width: 20%;
     border-radius: 20px;
     position: relative;
+    -webkit-box-shadow: inset 0 0 25px 15px rgba(97, 97, 97, 0.56);
+    -moz-box-shadow: inset 0 0 25px 15px rgba(97, 97, 97, 0.56);
+    box-shadow: inset 0 0 25px 15px rgba(97, 97, 97, 0.56);
 }
 
 .members-container .member-1 .member-img {
     background: rgb(5, 7, 37) url(../props/certificate/udemy.png);
     background-size: cover;
     background-position: center;
+
 }
 
 .members-container .member-2 .member-img {
