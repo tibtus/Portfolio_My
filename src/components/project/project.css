@@ -22,5 +22,16 @@
 
 .member-nav {
     width: 100%;
-    border: 2px solid var(--color-sec);
+
+}
+
+.member-nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.member-nav ul li {
+    list-style-type: none
 }

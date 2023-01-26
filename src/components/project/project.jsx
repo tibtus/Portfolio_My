@@ -37,14 +37,9 @@ const Project = ({className}) => {
             <CustomCarusel/>
             <div className="member-nav">
                 {/*{activeIndex + 1}*/}
-                <ul style={{
-                    "display": "flex",
-                    " flex-direction": "row",
-                    "justify-content": "center",
-                    "align-items": "center"
-                }}>
+                <ul>
                     {elements.map((element, index) => (
-                        <li style={{"list-style-type": "none"}} key={index}
+                        <li key={index}
                             onClick={() => handleSelect(index)}>{element}</li>
                     ))}
                 </ul>
