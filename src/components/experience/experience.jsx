@@ -34,6 +34,9 @@ function Experience() {
                         <li style={{"background": `url(${images[7]}) center/cover no-repeat`,}}></li>
                         <li style={{"background": `url(${images[8]}) center/cover no-repeat`,}}></li>
                         <li style={{"background": `url(${images[9]}) center/cover no-repeat`,}}></li>
+                        <li style={{"background": `url(${images[10]}) center/cover no-repeat`,}}></li>
+                        <li style={{"background": `url(${images[11]}) center/cover no-repeat`,}}></li>
+                        <li style={{"background": `url(${images[12]}) center/cover no-repeat`,}}></li>
                     </ul>
 
                     <ul className="marquee__content">
@@ -47,6 +50,9 @@ function Experience() {
                         <li style={{"background": `url(${images[7]}) center/cover no-repeat`,}}></li>
                         <li style={{"background": `url(${images[8]}) center/cover no-repeat`,}}></li>
                         <li style={{"background": `url(${images[9]}) center/cover no-repeat`,}}></li>
+                        <li style={{"background": `url(${images[10]}) center/cover no-repeat`,}}></li>
+                        <li style={{"background": `url(${images[11]}) center/cover no-repeat`,}}></li>
+                        <li style={{"background": `url(${images[12]}) center/cover no-repeat`,}}></li>
                     </ul>
 
 
