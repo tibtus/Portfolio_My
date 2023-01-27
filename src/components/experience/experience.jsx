@@ -8,6 +8,10 @@ function Experience() {
     let handleClick = (e) => {
         setAnimation(!animation);
     };
+    //імпорт зоображення
+    const importAll = (r) => r.keys().map(r);
+    const images = importAll(require.context('../props/experience/', false, /\.(png|jpe?g|svg)$/));
+    //імпорт зоображення
 
     return (
         <div id="experience" className="container experience-container">
@@ -20,21 +24,29 @@ function Experience() {
 
                 <div className="marquee marquee--fit-content">
                     <ul className="marquee__content">
-                        <li>JS</li>
-                        <li>2</li>
-                        <li>3</li>
-                        <li>4</li>
-                        <li>5</li>
-                        <li>6</li>
+                        <li style={{"background": `url(${images[0]}) center/cover no-repeat`,}}></li>
+                        <li style={{"background": `url(${images[1]}) center/cover no-repeat`,}}></li>
+                        <li style={{"background": `url(${images[2]}) center/cover no-repeat`,}}></li>
+                        <li style={{"background": `url(${images[3]}) center/cover no-repeat`,}}></li>
+                        <li style={{"background": `url(${images[4]}) center/cover no-repeat`,}}></li>
+                        <li style={{"background": `url(${images[5]}) center/cover no-repeat`,}}></li>
+                        <li style={{"background": `url(${images[6]}) center/cover no-repeat`,}}></li>
+                        <li style={{"background": `url(${images[7]}) center/cover no-repeat`,}}></li>
+                        <li style={{"background": `url(${images[8]}) center/cover no-repeat`,}}></li>
+                        <li style={{"background": `url(${images[9]}) center/cover no-repeat`,}}></li>
                     </ul>
 
                     <ul className="marquee__content">
-                        <li>1</li>
-                        <li>2</li>
-                        <li>3</li>
-                        <li>4</li>
-                        <li>5</li>
-                        <li>6</li>
+                        <li style={{"background": `url(${images[0]}) center/cover no-repeat`,}}></li>
+                        <li style={{"background": `url(${images[1]}) center/cover no-repeat`,}}></li>
+                        <li style={{"background": `url(${images[2]}) center/cover no-repeat`,}}></li>
+                        <li style={{"background": `url(${images[3]}) center/cover no-repeat`,}}></li>
+                        <li style={{"background": `url(${images[4]}) center/cover no-repeat`,}}></li>
+                        <li style={{"background": `url(${images[5]}) center/cover no-repeat`,}}></li>
+                        <li style={{"background": `url(${images[6]}) center/cover no-repeat`,}}></li>
+                        <li style={{"background": `url(${images[7]}) center/cover no-repeat`,}}></li>
+                        <li style={{"background": `url(${images[8]}) center/cover no-repeat`,}}></li>
+                        <li style={{"background": `url(${images[9]}) center/cover no-repeat`,}}></li>
                     </ul>
 
 
