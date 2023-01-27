@@ -18,9 +18,9 @@ function WebContent() {
             <Header/>
             <Navbar/>
             <Home/>
+            <Experience/>
             <About/>
             <Members/>
-            <Experience/>
             <Contact/>
             <Footer/>
         </>
