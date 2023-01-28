@@ -36,7 +36,6 @@ const Project = ({className}) => {
             <h1 className="member-txt">Projects</h1>
             <CustomCarusel/>
             <div className="member-nav">
-                {/*{activeIndex + 1}*/}
                 <ul>
                     {elements.map((element, index) => (
                         <li key={index}
