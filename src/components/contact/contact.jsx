@@ -7,6 +7,7 @@ import {FaTelegram} from "react-icons/fa";
 
 
 function Contact() {
+
   return (
       <div id="contact" className="container contact-container">
         <h1>Contact Me</h1>
@@ -64,9 +65,8 @@ function Contact() {
           </a>
 
           <a
-              href="../props/contacts.vcf"
+              href="#contact"
               className="contact"
-              download=""
           >
             <div className="contact QRCode">
               <div className="contact QRCode img"/>

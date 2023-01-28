@@ -24,35 +24,19 @@ function Experience() {
 
                 <div className="marquee marquee--fit-content">
                     <ul className="marquee__content">
-                        <li style={{"background": `url(${images[0]}) center/cover no-repeat`,}}></li>
-                        <li style={{"background": `url(${images[1]}) center/cover no-repeat`,}}></li>
-                        <li style={{"background": `url(${images[2]}) center/cover no-repeat`,}}></li>
-                        <li style={{"background": `url(${images[3]}) center/cover no-repeat`,}}></li>
-                        <li style={{"background": `url(${images[4]}) center/cover no-repeat`,}}></li>
-                        <li style={{"background": `url(${images[5]}) center/cover no-repeat`,}}></li>
-                        <li style={{"background": `url(${images[6]}) center/cover no-repeat`,}}></li>
-                        <li style={{"background": `url(${images[7]}) center/cover no-repeat`,}}></li>
-                        <li style={{"background": `url(${images[8]}) center/cover no-repeat`,}}></li>
-                        <li style={{"background": `url(${images[9]}) center/cover no-repeat`,}}></li>
-                        <li style={{"background": `url(${images[10]}) center/cover no-repeat`,}}></li>
-                        <li style={{"background": `url(${images[11]}) center/cover no-repeat`,}}></li>
-                        <li style={{"background": `url(${images[12]}) center/cover no-repeat`,}}></li>
+                        {images ? images.map((image, index) => (
+                            <li key={index} style={{
+                                background: `url(${image}) center/cover no-repeat`
+                            }}></li>
+                        )) : <li></li>}
                     </ul>
 
                     <ul className="marquee__content">
-                        <li style={{"background": `url(${images[0]}) center/cover no-repeat`,}}></li>
-                        <li style={{"background": `url(${images[1]}) center/cover no-repeat`,}}></li>
-                        <li style={{"background": `url(${images[2]}) center/cover no-repeat`,}}></li>
-                        <li style={{"background": `url(${images[3]}) center/cover no-repeat`,}}></li>
-                        <li style={{"background": `url(${images[4]}) center/cover no-repeat`,}}></li>
-                        <li style={{"background": `url(${images[5]}) center/cover no-repeat`,}}></li>
-                        <li style={{"background": `url(${images[6]}) center/cover no-repeat`,}}></li>
-                        <li style={{"background": `url(${images[7]}) center/cover no-repeat`,}}></li>
-                        <li style={{"background": `url(${images[8]}) center/cover no-repeat`,}}></li>
-                        <li style={{"background": `url(${images[9]}) center/cover no-repeat`,}}></li>
-                        <li style={{"background": `url(${images[10]}) center/cover no-repeat`,}}></li>
-                        <li style={{"background": `url(${images[11]}) center/cover no-repeat`,}}></li>
-                        <li style={{"background": `url(${images[12]}) center/cover no-repeat`,}}></li>
+                        {images ? images.map((image, index) => (
+                            <li key={index} style={{
+                                background: `url(${image}) center/cover no-repeat`
+                            }}></li>
+                        )) : <li></li>}
                     </ul>
 
 
