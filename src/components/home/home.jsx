@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {Suspense, useState} from "react";
 //styles
 import './home.css';
 //components
@@ -6,6 +6,8 @@ import img from '../props/img2.jpg';
 import Buttons from '../button/button';
 //icons
 import {BsMouse} from 'react-icons/bs';
+import Preloader from "../Preloader/Preloader";
+import Experience from "../experience/experience";
 
 
 function Home() {
@@ -54,6 +56,9 @@ function Home() {
             </h2>
 
             <Buttons/>
+            <Suspense fallback={<Preloader/>}>
+                <Experience/>
+            </Suspense>
         </div>
     );
 }

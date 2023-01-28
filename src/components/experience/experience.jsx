@@ -13,15 +13,10 @@ function Experience() {
     const images = importAll(require.context('../props/experience/', false, /\.(png|jpe?g|svg)$/));
     //імпорт зоображення
 
+
     return (
         <div id="experience" className="container experience-container">
             <section onClick={handleClick} className={animation ? "enable-animation" : ""}>
-                {/*<h2>Fit content</h2>
-                <button style={{"color": "black"}} onClick={handleClick}>
-                    {animation ? "STOP" : "PLAY"}
-                </button>
-                <label htmlFor="enable-animation-4">Enable animation</label>*/}
-
                 <div className="marquee marquee--fit-content">
                     <ul className="marquee__content">
                         {images ? images.map((image, index) => (
@@ -41,6 +36,7 @@ function Experience() {
 
 
                 </div>
+
             </section>
         </div>
     );
