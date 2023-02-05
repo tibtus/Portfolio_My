@@ -4,7 +4,7 @@ const MyContext = React.createContext();
 
 class MyProvider extends React.Component {
     state = {
-        value: 'default value',
+        value: 0,
     };
 
     updateValue = newValue => {
