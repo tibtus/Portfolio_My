@@ -129,8 +129,8 @@
 .bodyBlock .options .option.active {
     flex-grow: 10000;
     transform: scale(1);
-    min-width: 300px;
-    max-width: 600px;
+    min-width: 600px;
+    max-width: 900px;
     margin: 0px;
     border-radius: 10px;
     background-size: auto 100%;

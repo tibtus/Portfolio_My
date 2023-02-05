@@ -38,7 +38,7 @@ const CustomCarusel = () => {
 
                     >
                         <a
-                            href="https://google.com"
+                            href="https://dpdmarket.com/"
                             target={"blank"}
                         >
                             <div className="shadow"></div>
@@ -46,8 +46,8 @@ const CustomCarusel = () => {
                                 <DiGit className="icon"/>
 
                                 <div className="info">
-                                    <div className="main">My WORK 1</div>
-                                    <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
+                                    <div className="main">DPD Market</div>
+                                    <div className="sub">Technologies: JS, React.js, MUI 5, Node.js, MongoDB.</div>
                                 </div>
 
                             </div>
@@ -70,8 +70,8 @@ const CustomCarusel = () => {
                                 <DiGit className="icon"/>
 
                                 <div className="info">
-                                    <div className="main">My WORK 2</div>
-                                    <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
+                                    <div className="main">CreditBox</div>
+                                    <div className="sub">Technologies: JS, React.js, MUI 4, Node.js, MongoDB.</div>
                                 </div>
 
                             </div>
@@ -83,7 +83,7 @@ const CustomCarusel = () => {
                     >
 
                         <a
-                            href="https://google.com"
+                            href="http://berry-com.com/"
                             target={"blank"}
                         >
                             <div className="shadow"></div>
@@ -91,8 +91,8 @@ const CustomCarusel = () => {
                                 <DiGit className="icon"/>
 
                                 <div className="info">
-                                    <div className="main">My WORK 3</div>
-                                    <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
+                                    <div className="main">Business site - Berry</div>
+                                    <div className="sub">Technologies: WordPress, JS, jQuery</div>
                                 </div>
 
                             </div>
@@ -103,7 +103,7 @@ const CustomCarusel = () => {
                          onClick={handleClick}
                     >
                         <a
-                            href="https://google.com"
+                            href="https://belitrade.com/"
                             target={"blank"}
                         >
                             <div className="shadow"></div>
@@ -111,8 +111,8 @@ const CustomCarusel = () => {
                                 <DiGit className="icon"/>
 
                                 <div className="info">
-                                    <div className="main">My WORK 4</div>
-                                    <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
+                                    <div className="main">Business site - BeliTrade</div>
+                                    <div className="sub">Technologies: HTML, SCSS, WordPress, JS, jQuery</div>
                                 </div>
 
                             </div>
@@ -123,7 +123,7 @@ const CustomCarusel = () => {
                          onClick={handleClick}
                     >
                         <a
-                            href="https://google.com"
+                            href="https://github.com/tibtus/React_Marvel_Comics"
                             target={"blank"}
                         >
                             <div className="shadow"></div>
@@ -131,8 +131,8 @@ const CustomCarusel = () => {
                                 <DiGit className="icon"/>
 
                                 <div className="info">
-                                    <div className="main">My WORK 5</div>
-                                    <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
+                                    <div className="main">Comic Portal - React Marvel Comics</div>
+                                    <div className="sub">Technologies: JS, React, SCSS, gulp, webpack.</div>
                                 </div>
 
                             </div>
@@ -141,11 +141,11 @@ const CustomCarusel = () => {
 
 
                     <div className="option"
-                         style={{"--optionBackground": `url(${images[0]}) center/cover no-repeat`}}
+                         style={{"--optionBackground": `url(${images[5]}) center/cover no-repeat`}}
                          onClick={handleClick}
                     >
                         <a
-                            href="https://google.com"
+                            href="https://github.com/tibtus/lawyer-k"
                             target={"blank"}
                         >
                             <div className="shadow"></div>
@@ -153,8 +153,9 @@ const CustomCarusel = () => {
                                 <DiGit className="icon"/>
 
                                 <div className="info">
-                                    <div className="main">My WORK 6</div>
-                                    <div className="sub">TEXT TEXT TEXT TEXT TEXT</div>
+                                    <div className="main">Business card site - Lawyer-K</div>
+                                    <div className="sub">Technologies: vanilla JS, ES6, SCSS, gulp, webpack.
+                                    </div>
                                 </div>
 
                             </div>
@@ -162,7 +163,7 @@ const CustomCarusel = () => {
                     </div>
 
 
-                    <div className="option"
+                    {/*<div className="option"
                          style={{"--optionBackground": `url(${images[1]}) center/cover no-repeat`}}
                          onClick={handleClick}
                     >
@@ -181,7 +182,7 @@ const CustomCarusel = () => {
 
                             </div>
                         </a>
-                    </div>
+                    </div>*/}
 
 
                 </div>
