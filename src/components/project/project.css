@@ -40,6 +40,6 @@
     margin: 5px;
 }
 
-.member-nav ul li .active {
+.member-nav .active {
     background-color: var(--color-pri);
 }

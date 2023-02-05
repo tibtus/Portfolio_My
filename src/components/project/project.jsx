@@ -41,16 +41,12 @@ const Project = ({className}) => {
                 <div style={{width: "100%"}}>
                     <h1 className="member-txt">Projects</h1>
 
-                    <div>
-                        <p>Value from context: {context.value}</p>
-                    </div>
-
-
                     <CustomCarusel/>
                     <div className="member-nav">
                         <ul>
                             {elements.map((element, index) => (
                                 <li
+                                    className={context.value === index ? "active" : ""}
                                     key={index}
                                     onClick={() => {
                                         handleSelect(index);
