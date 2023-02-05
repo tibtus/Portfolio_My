@@ -3,6 +3,8 @@ import React, {useEffect, useState} from "react";
 import "./project.css";
 import CustomCarusel from "../custom/customCarusel/customCarusel";
 import {BsApp} from "react-icons/bs";
+//Context
+import MyContext from "../../context/context";
 
 const Project = ({className}) => {
 
@@ -29,22 +31,40 @@ const Project = ({className}) => {
 
     const handleSelect = (index) => {
         setActiveIndex(index);
-    }
+    };
 
     return (
-        <div style={{width: "100%"}}>
-            <h1 className="member-txt">Projects</h1>
-            <CustomCarusel/>
-            <div className="member-nav">
-                <ul>
-                    {elements.map((element, index) => (
-                        <li key={index}
-                            onClick={() => handleSelect(index)}>{element}</li>
-                    ))}
-                </ul>
 
-            </div>
-        </div>
+        <MyContext.Consumer>
+            {context => (
+
+                <div style={{width: "100%"}}>
+                    <h1 className="member-txt">Projects</h1>
+
+                    <div>
+                        <p>Value from context: {context.value}</p>
+                    </div>
+
+
+                    <CustomCarusel/>
+                    <div className="member-nav">
+                        <ul>
+                            {elements.map((element, index) => (
+                                <li key={index} onClick={() => {
+                                    handleSelect(index);
+                                    context.updateValue(index);
+                                }}>{element}</li>
+                            ))}
+                        </ul>
+
+                    </div>
+                </div>
+
+
+            )}
+        </MyContext.Consumer>
+
+
     )
 
 };

@@ -34,9 +34,12 @@
 }
 
 .member-nav ul li {
-    list-style-type: none
+    list-style-type: none;
+    border-radius: 20px;
+    background-color: var(--color-pri-light);
+    margin: 5px;
 }
 
 .member-nav ul li .active {
-    border: 1px solid red;
+    background-color: var(--color-pri);
 }
