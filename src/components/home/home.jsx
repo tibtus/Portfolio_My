@@ -12,7 +12,7 @@ import Experience from "../experience/experience";
 
 function Home() {
 
-    const [activeState, setActiveState] = useState(true);
+    const [activeState, setActiveState] = useState(false);
     let handleClick = () => {
         setActiveState(!activeState)
     };
@@ -45,12 +45,16 @@ function Home() {
             <h2>
                 <span>About Me</span> <br/>
                 <p>
-                    In my work as a developer, I use such languages and technologies as JavaScript, React.js,
-                    Material-UI, Node.js, MongoDb. <br/>
+
+                    I'm JavaScript Developer.<br/>
+                    In my work as a developer, I use such languages and technologies as<br/>
+                    JavaScript, React.js, Material-UI, Node.js, MongoDb.<br/><br/>
+
                     I have more than 5 years of team management experience in areas such as HelpDesk and system
-                    administration of servers and networks, more than 10 years as a system administrator. <br/>
+                    administration of servers and networks, more than 10 years as a system administrator.<br/>
                     I have been working as a full-time developer since May 2022 for a product company that independently
-                    develops all software for its financial products. <br/>
+                    develops all software for its financial products.<br/>
+
 
                 </p>
             </h2>

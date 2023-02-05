@@ -12,7 +12,7 @@ function Header() {
                 </p>
                 Serhii Burdeinyi
             </h3>
-            <h2>FRONT-END DEVELOPER – JAVASCRIPT | REACT.JS </h2>
+            <h2> FULL-STACK JAVASCRIPT DEVELOPER</h2>
         </div>
     );
 }
