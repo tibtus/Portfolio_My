@@ -32,16 +32,18 @@ function Navbar() {
                 <FcRating className="icon " onClick={handleClick}/>
 
             </a>
-            <a href="#members">
-                <FcGraduationCap className="icon " onClick={handleClick}/>
 
-            </a>
             <a href="#footer">
                 <DiJavascript1 className="icon " onClick={handleClick}/>
 
             </a>
             <a href="#footer">
                 <FcLinux className="icon " onClick={handleClick}/>
+
+            </a>
+
+            <a href="#members">
+                <FcGraduationCap className="icon " onClick={handleClick}/>
 
             </a>
 
