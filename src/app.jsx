@@ -41,25 +41,6 @@ function WebContent() {
             </ChildComponent>
         </MyProvider>
 
-        /*    <MyProvider>
-                <ChildComponent>
-                    {context => (
-                        <React.Fragment>
-                            <div className="bg-circle1"/>
-                            <div className="bg-circle2"/>
-                            <Header/>
-                            <Navbar/>
-                            <Home/>
-
-                            <About/>
-                            <Members/>
-                            <Contact/>
-                            <Footer/>
-                        </React.Fragment>
-                    )}
-                </ChildComponent>
-            </MyProvider>*/
-
     );
 }
 

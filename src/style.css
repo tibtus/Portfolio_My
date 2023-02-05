@@ -70,6 +70,7 @@ body::after {
 :root {
     --color-pri: rgb(82, 188, 250);
     --color-pri-light: rgba(82, 188, 250, 0.445);
+    --color-pri-dark: #474bff;
     --color-sec: rgb(172, 17, 233);
     --color-sec-light: rgba(172, 17, 233, 0.274);
     --color-pink: rgb(234, 111, 218);
