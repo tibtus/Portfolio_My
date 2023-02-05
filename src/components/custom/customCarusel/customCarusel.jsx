@@ -5,6 +5,7 @@ import "./customCarusel.css";
 //MUI
 // react icons
 import {DiGit} from "react-icons/di";
+import MyContext from "../../../context/context";
 
 const CustomCarusel = () => {
     //імпорт зоображення
@@ -59,25 +60,41 @@ const CustomCarusel = () => {
     ]
 
     return (
-        <div className="bodyBlock" style={{width: "100%"}}>
-            <div className="options">
-                {images.map((img, i) => (
-                    <div key={i} className={`option ${i === 0 ? "active" : ""}`}
-                         style={{"--optionBackground": `url(${img}) center/cover no-repeat`}} onClick={handleClick}>
-                        <a href={arrData[i].links} target="blank">
-                            <div className="shadow"></div>
-                            <div className="label">
-                                <DiGit className="icon"/>
-                                <div className="info">
-                                    <div className="main">{arrData[i].titles}</div>
-                                    <div className="sub">{arrData[i].subTitles}</div>
-                                </div>
+
+        <MyContext.Consumer>
+            {context => (
+
+                <div className="bodyBlock" style={{width: "100%"}}>
+                    <div className="options">
+                        {images.map((img, i) => (
+                            <div key={i}
+                                 className={`option ${i === 0 ? "active" : ""}`}
+                                 style={{"--optionBackground": `url(${img}) center/cover no-repeat`}}
+                                 onClick={(e) => {
+                                     handleClick(e);
+                                     context.updateValue(i);
+                                 }}
+                            >
+                                <a href={arrData[i].links} target="blank">
+                                    <div className="shadow"></div>
+                                    <div className="label">
+                                        <DiGit className="icon"/>
+                                        <div className="info">
+                                            <div className="main">{arrData[i].titles}</div>
+                                            <div className="sub">{arrData[i].subTitles}</div>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
-                        </a>
+                        ))}
                     </div>
-                ))}
-            </div>
-        </div>
+                </div>
+
+
+            )}
+        </MyContext.Consumer>
+
+
     );
 };
 

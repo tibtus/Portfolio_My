@@ -50,10 +50,13 @@ const Project = ({className}) => {
                     <div className="member-nav">
                         <ul>
                             {elements.map((element, index) => (
-                                <li key={index} onClick={() => {
-                                    handleSelect(index);
-                                    context.updateValue(index);
-                                }}>{element}</li>
+                                <li
+                                    key={index}
+                                    onClick={() => {
+                                        handleSelect(index);
+                                        context.updateValue(index);
+                                    }}
+                                >{element}</li>
                             ))}
                         </ul>
 
