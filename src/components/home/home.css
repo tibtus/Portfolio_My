@@ -37,14 +37,15 @@
     animation: showspin 15s linear 1s infinite;
 }
 
-@keyframes showspin {
+/*анімація 360 лого*/
+/*@keyframes showspin {
     from {
         transform: rotate(360deg);
     }
     to {
         transform: rotate(0deg);
     }
-}
+}*/
 
 .home-container .logo .circle {
     position: absolute;
