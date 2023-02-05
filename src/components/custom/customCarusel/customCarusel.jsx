@@ -62,7 +62,7 @@ const CustomCarusel = () => {
                          onClick={handleClick}
                     >
                         <a
-                            href="https://google.com"
+                            href="https://creditbox.in.ua/"
                             target={"blank"}
                         >
                             <div className="shadow"></div>
