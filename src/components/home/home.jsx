@@ -51,15 +51,11 @@ function Home() {
                         <span>About Me</span> <br/>
                         <p>
 
-                            I'm JavaScript Developer.<br/>
-                            In my work as a developer, I use such languages and technologies as<br/>
-                            JavaScript, React.js, Material-UI, Node.js, MongoDb.<br/><br/>
-
-                            I have more than 5 years of team management experience in areas such as HelpDesk and system
-                            administration of servers and networks, more than 10 years as a system administrator.<br/>
-                            I have been working as a full-time developer since May 2022 for a product company that
-                            independently
-                            develops all software for its financial products.<br/>
+                            I'm JavaScript Developer<br/> who works with the following technologies: JavaScript,
+                            React.js, Material-UI, Node.js, and MongoDb.<br/><br/>
+                            Before that, I have more than 10 years of experience as a system administrator and was
+                            responsible for setting up and maintaining networks and servers, as well as managing the IT
+                            department (more than 5 years).<br/>
 
 
                         </p>

@@ -140,26 +140,6 @@ const Members = () => {
           </div>
         </div>
 
-        <div className="member member-6">
-          <div className="member-img">
-            <div className="position">UDEMY</div>
-          </div>
-          <div className="member-info">
-            <h1 className="name"> Course "Angular"
-            </h1>
-            <h3 className="period"> 08.2022 - 12.2022 ( 4 months ) </h3>
-            <h4 className="about">
-              Angular 8+, TypeScript , RxJS
-            </h4>
-            <a href="https://www.udemy.com/certificate/UC-8ed1bd42-9be0-4127-b7b5-7a72b7a58d83/"
-               className="contact-member"
-               target={"blank"}
-            >
-              <span>Certificate</span>
-            </a>
-          </div>
-        </div>
-
         <div className="member member-7">
           <div className="member-img">
             <div className="position">ITVDN</div>
@@ -168,9 +148,8 @@ const Members = () => {
             <h1 className="name"> Diploma React Developer
             </h1>
 
-            <h3 className="period"> 01.2022 - 01.2023 ( 1 year ) </h3>
+            <h3 className="period"> · Git Basics, · React Basic, · React Advanced, </h3>
             <h4 className="about">
-              React - basic, in-depth
             </h4>
             <a href="https://testprovider.com/ru/search-certificate/TP68853173D/"
                className="contact-member"
@@ -180,6 +159,34 @@ const Members = () => {
             </a>
           </div>
         </div>
+
+        <div className="member member-7">
+          <div className="member-img">
+            <div className="position">ITVDN</div>
+          </div>
+          <div className="member-info">
+            <h1 className="name"> Diploma JavaScript Developer
+            </h1>
+
+            <h3 className="period">
+              · Git Basics,
+              · JavaScript Fundamentals,
+              · Advanced JavaScript,
+              · JavaScript Design Patterns,
+              · ECMAScript 6,
+              · Expert JavaScript. </h3>
+            <h4 className="about">
+
+            </h4>
+            <a href="https://testprovider.com/ru/search-certificate/TP11584404D"
+               className="contact-member"
+               target={"blank"}
+            >
+              <span>Diploma</span>
+            </a>
+          </div>
+        </div>
+
 
       </div>
   );

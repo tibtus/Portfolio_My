@@ -2,8 +2,7 @@ import React from "react";
 //styles
 import "./nav.css";
 //icons
-import {FcGraduationCap, FcHome, FcInternal, FcLinux, FcPhone, FcRating} from "react-icons/fc";
-import {DiJavascript1,} from "react-icons/di";
+import {FcGraduationCap, FcHome, FcInternal, FcPhone, FcRating} from "react-icons/fc";
 
 
 function Navbar() {
@@ -32,16 +31,6 @@ function Navbar() {
                 <FcRating className="icon " onClick={handleClick}/>
 
             </a>
-
-            <a href="#footer">
-                <DiJavascript1 className="icon " onClick={handleClick}/>
-
-            </a>
-            <a href="#footer">
-                <FcLinux className="icon " onClick={handleClick}/>
-
-            </a>
-
             <a href="#members">
                 <FcGraduationCap className="icon " onClick={handleClick}/>
 
